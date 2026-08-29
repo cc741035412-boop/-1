@@ -1,0 +1,442 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "nodes": [
+      {
+        "angle": 0,
+        "height": 28.27199935913086,
+        "id": "z2:13",
+        "mind_map": {
+          "parent_id": "z2:8"
+        },
+        "mind_map_node": {
+          "collapsed": false,
+          "parent_id": "z2:8",
+          "type": "mind_map_text",
+          "z_index": 1
+        },
+        "style": {
+          "border_color": "#5178c6",
+          "border_color_type": 0,
+          "border_opacity": 100,
+          "border_style": "solid",
+          "border_width": "narrow",
+          "fill_color_type": 0,
+          "fill_opacity": 100,
+          "theme_border_color_code": -1,
+          "theme_fill_color_code": -1
+        },
+        "text": {
+          "angle": 0,
+          "font_size": 14,
+          "font_weight": "regular",
+          "horizontal_align": "left",
+          "italic": false,
+          "line_through": false,
+          "text": "延伸做产品的核心观点",
+          "text_background_color_type": 0,
+          "text_color": "#1f2329",
+          "text_color_type": 0,
+          "theme_text_background_color_code": -1,
+          "theme_text_color_code": -1,
+          "underline": false,
+          "vertical_align": "mid"
+        },
+        "type": "mind_map",
+        "width": 156,
+        "x": 941.3500366210938,
+        "y": 525.005615234375,
+        "z_index": 6
+      },
+      {
+        "angle": 0,
+        "height": 28.27199935913086,
+        "id": "z2:11",
+        "mind_map": {
+          "parent_id": "z2:7"
+        },
+        "mind_map_node": {
+          "collapsed": false,
+          "layout_position": "right",
+          "parent_id": "z2:7",
+          "type": "mind_map_text",
+          "z_index": 1
+        },
+        "style": {
+          "border_color": "#5178c6",
+          "border_color_type": 0,
+          "border_opacity": 100,
+          "border_style": "solid",
+          "border_width": "narrow",
+          "fill_color_type": 0,
+          "fill_opacity": 100,
+          "theme_border_color_code": -1,
+          "theme_fill_color_code": -1
+        },
+        "text": {
+          "angle": 0,
+          "font_size": 14,
+          "font_weight": "bold",
+          "horizontal_align": "left",
+          "italic": false,
+          "line_through": false,
+          "text": "LLM大语言模型",
+          "text_background_color_type": 0,
+          "text_color": "#1f2329",
+          "text_color_type": 0,
+          "theme_text_background_color_code": -1,
+          "theme_text_color_code": -1,
+          "underline": false,
+          "vertical_align": "mid"
+        },
+        "type": "mind_map",
+        "width": 114.13998413085938,
+        "x": 695.4879760742188,
+        "y": 577.2776489257812,
+        "z_index": 4
+      },
+      {
+        "angle": 0,
+        "height": 28.27199935913086,
+        "id": "z2:9",
+        "mind_map": {
+          "parent_id": "z2:7"
+        },
+        "mind_map_node": {
+          "children": [
+            "z2:14"
+          ],
+          "collapsed": false,
+          "layout_position": "right",
+          "parent_id": "z2:7",
+          "type": "mind_map_text",
+          "z_index": 2
+        },
+        "style": {
+          "border_color": "#5178c6",
+          "border_color_type": 0,
+          "border_opacity": 100,
+          "border_style": "solid",
+          "border_width": "narrow",
+          "fill_color_type": 0,
+          "fill_opacity": 100,
+          "theme_border_color_code": -1,
+          "theme_fill_color_code": -1
+        },
+        "text": {
+          "angle": 0,
+          "font_size": 14,
+          "font_weight": "bold",
+          "horizontal_align": "left",
+          "italic": false,
+          "line_through": false,
+          "text": "04号分享-agent概念、运行架构、案例",
+          "text_background_color_type": 0,
+          "text_color": "#1f2329",
+          "text_color_type": 0,
+          "theme_text_background_color_code": -1,
+          "theme_text_color_code": -1,
+          "underline": false,
+          "vertical_align": "mid"
+        },
+        "type": "mind_map",
+        "width": 259.0260009765625,
+        "x": 695.4879760742188,
+        "y": 629.5496215820312,
+        "z_index": 2
+      },
+      {
+        "angle": 0,
+        "height": 28.27199935913086,
+        "id": "z2:14",
+        "mind_map": {
+          "parent_id": "z2:9"
+        },
+        "mind_map_node": {
+          "collapsed": false,
+          "parent_id": "z2:9",
+          "type": "mind_map_text",
+          "z_index": 0
+        },
+        "style": {
+          "border_color": "#5178c6",
+          "border_color_type": 0,
+          "border_opacity": 100,
+          "border_style": "solid",
+          "border_width": "narrow",
+          "fill_color_type": 0,
+          "fill_opacity": 100,
+          "theme_border_color_code": -1,
+          "theme_fill_color_code": -1
+        },
+        "text": {
+          "angle": 0,
+          "font_size": 14,
+          "font_weight": "regular",
+          "horizontal_align": "left",
+          "italic": false,
+          "line_through": false,
+          "text": "胶布补充agent功能",
+          "text_background_color_type": 0,
+          "text_color": "#1f2329",
+          "text_color_type": 0,
+          "theme_text_background_color_code": -1,
+          "theme_text_color_code": -1,
+          "underline": false,
+          "vertical_align": "mid"
+        },
+        "type": "mind_map",
+        "width": 137.156005859375,
+        "x": 1014.5139770507812,
+        "y": 629.5496215820312,
+        "z_index": 7
+      },
+      {
+        "angle": 0,
+        "height": 28.27199935913086,
+        "id": "z2:10",
+        "mind_map": {
+          "parent_id": "z2:7"
+        },
+        "mind_map_node": {
+          "collapsed": false,
+          "layout_position": "right",
+          "parent_id": "z2:7",
+          "type": "mind_map_text",
+          "z_index": 3
+        },
+        "style": {
+          "border_color": "#5178c6",
+          "border_color_type": 0,
+          "border_opacity": 100,
+          "border_style": "solid",
+          "border_width": "narrow",
+          "fill_color_type": 0,
+          "fill_opacity": 100,
+          "theme_border_color_code": -1,
+          "theme_fill_color_code": -1
+        },
+        "text": {
+          "angle": 0,
+          "font_size": 14,
+          "font_weight": "bold",
+          "horizontal_align": "left",
+          "italic": false,
+          "line_through": false,
+          "text": "大语言模型训练过程",
+          "text_background_color_type": 0,
+          "text_color": "#1f2329",
+          "text_color_type": 0,
+          "theme_text_background_color_code": -1,
+          "theme_text_color_code": -1,
+          "underline": false,
+          "vertical_align": "mid"
+        },
+        "type": "mind_map",
+        "width": 142,
+        "x": 695.4879760742188,
+        "y": 681.8216552734375,
+        "z_index": 3
+      },
+      {
+        "angle": 0,
+        "height": 48,
+        "id": "z2:7",
+        "mind_map": {
+          "parent_id": ""
+        },
+        "mind_map_root": {
+          "layout": "left_right",
+          "line_style": "round_angle",
+          "right_children": [
+            "z2:8",
+            "z2:11",
+            "z2:9",
+            "z2:10"
+          ],
+          "type": "mind_map_round_rect"
+        },
+        "style": {
+          "border_color": "#5178c6",
+          "border_color_type": 0,
+          "border_opacity": 100,
+          "border_style": "solid",
+          "border_width": "narrow",
+          "fill_color": "#5178c6",
+          "fill_color_type": 0,
+          "fill_opacity": 100,
+          "theme_border_color_code": -1,
+          "theme_fill_color_code": -1
+        },
+        "text": {
+          "angle": 0,
+          "font_size": 14,
+          "font_weight": "regular",
+          "horizontal_align": "center",
+          "italic": false,
+          "line_through": false,
+          "text": "DAY03 笔记",
+          "text_background_color_type": 0,
+          "text_color": "#ffffff",
+          "text_color_type": 0,
+          "theme_text_background_color_code": -1,
+          "theme_text_color_code": -1,
+          "underline": false,
+          "vertical_align": "mid"
+        },
+        "type": "mind_map",
+        "width": 111.86199951171875,
+        "x": 523.6259765625,
+        "y": 567.4136352539062,
+        "z_index": 0
+      },
+      {
+        "angle": 0,
+        "height": 28.27199935913086,
+        "id": "z2:8",
+        "mind_map": {
+          "parent_id": "z2:7"
+        },
+        "mind_map_node": {
+          "children": [
+            "z2:12",
+            "z2:13"
+          ],
+          "collapsed": false,
+          "layout_position": "right",
+          "parent_id": "z2:7",
+          "type": "mind_map_text",
+          "z_index": 0
+        },
+        "style": {
+          "border_color": "#5178c6",
+          "border_color_type": 0,
+          "border_opacity": 100,
+          "border_style": "solid",
+          "border_width": "narrow",
+          "fill_color_type": 0,
+          "fill_opacity": 100,
+          "theme_border_color_code": -1,
+          "theme_fill_color_code": -1
+        },
+        "text": {
+          "angle": 0,
+          "font_size": 14,
+          "font_weight": "bold",
+          "horizontal_align": "left",
+          "italic": false,
+          "line_through": false,
+          "text": "03分享函数到transformer",
+          "text_background_color_type": 0,
+          "text_color": "#1f2329",
+          "text_color_type": 0,
+          "theme_text_background_color_code": -1,
+          "theme_text_color_code": -1,
+          "underline": false,
+          "vertical_align": "mid"
+        },
+        "type": "mind_map",
+        "width": 185.8620147705078,
+        "x": 695.4879760742188,
+        "y": 494.733642578125,
+        "z_index": 1
+      },
+      {
+        "angle": 0,
+        "height": 76.81600189208984,
+        "id": "z2:12",
+        "mind_map": {
+          "parent_id": "z2:8"
+        },
+        "mind_map_node": {
+          "collapsed": false,
+          "parent_id": "z2:8",
+          "type": "mind_map_text",
+          "z_index": 0
+        },
+        "style": {
+          "border_color": "#5178c6",
+          "border_color_type": 0,
+          "border_opacity": 100,
+          "border_style": "solid",
+          "border_width": "narrow",
+          "fill_color_type": 0,
+          "fill_opacity": 100,
+          "theme_border_color_code": -1,
+          "theme_fill_color_code": -1
+        },
+        "text": {
+          "angle": 0,
+          "font_size": 14,
+          "font_weight": "regular",
+          "horizontal_align": "left",
+          "italic": false,
+          "line_through": false,
+          "rich_text": {
+            "paragraphs": [
+              {
+                "elements": [
+                  {
+                    "element_type": 0,
+                    "text_element": {
+                      "text": "胶布建议：",
+                      "text_style": {}
+                    }
+                  }
+                ],
+                "indent": 0,
+                "list_begin_index": 0,
+                "paragraph_type": 0,
+                "quote": false
+              },
+              {
+                "elements": [
+                  {
+                    "element_type": 0,
+                    "text_element": {
+                      "text": "优：1.渲染力 2.准备充分",
+                      "text_style": {}
+                    }
+                  }
+                ],
+                "indent": 0,
+                "list_begin_index": 0,
+                "paragraph_type": 0,
+                "quote": true
+              },
+              {
+                "elements": [
+                  {
+                    "element_type": 0,
+                    "text_element": {
+                      "text": "改进：3.要明确听众需求(不要默认别人听得懂） 4.听众能不能感受到解决的问题",
+                      "text_style": {}
+                    }
+                  }
+                ],
+                "indent": 0,
+                "list_begin_index": 0,
+                "paragraph_type": 0,
+                "quote": true
+              }
+            ]
+          },
+          "text": "胶布建议：\n优：1.渲染力 2.准备充分\n改进：3.要明确听众需求(不要默认别人听得懂） 4.听众能不能感受到解决的问题",
+          "text_background_color_type": 0,
+          "text_color": "#1f2329",
+          "text_color_type": 0,
+          "theme_text_background_color_code": -1,
+          "theme_text_color_code": -1,
+          "underline": false,
+          "vertical_align": "mid"
+        },
+        "type": "mind_map",
+        "width": 519.1919555664062,
+        "x": 941.3500366210938,
+        "y": 440.18963623046875,
+        "z_index": 5
+      }
+    ]
+  }
+}

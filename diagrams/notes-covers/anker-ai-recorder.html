@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1200px;height:800px;overflow:hidden}
+body{font-family:-apple-system,"PingFang SC","Helvetica Neue",sans-serif;color:#fff;-webkit-font-smoothing:antialiased}
+.serif{font-family:"Songti SC","STSong","Source Han Serif SC",serif}
+.cover{position:relative;width:1200px;height:800px;padding:64px 72px 0;
+  background:radial-gradient(1200px 800px at 80% 8%, #14342e 0%, #0d2320 46%, #081512 100%);overflow:hidden}
+.sheen{position:absolute;inset:0;background:radial-gradient(900px 460px at 90% -8%, rgba(94,234,212,.09), transparent 60%)}
+.eyebrow{position:absolute;top:64px;left:72px;font-size:21px;letter-spacing:.32em;color:rgba(255,255,255,.55)}
+.num{position:absolute;top:52px;right:72px;font-family:"Songti SC",serif;font-style:italic;font-size:46px;color:rgba(255,255,255,.32)}
+.title{position:absolute;top:168px;left:72px;width:560px}
+.title .line{font-size:58px;font-weight:600;line-height:1.24;letter-spacing:.01em}
+.title .accent{color:#5eead4}
+.takeaway{position:absolute;top:396px;left:72px;width:560px;font-size:26px;line-height:1.62;color:rgba(255,255,255,.62)}
+/* 链路图 */
+.motif{position:absolute;left:680px;top:210px;width:448px;height:310px}
+.node{position:absolute;width:124px;height:124px;border-radius:50%;background:rgba(94,234,212,.07);border:2px solid rgba(94,234,212,.55)}
+.node .ic{position:absolute;left:38px;top:38px;width:48px;height:48px;color:#e6fffa}
+.nlabel{position:absolute;top:166px;width:124px;text-align:center;font-size:30px;font-weight:600;letter-spacing:.14em;color:#fff}
+.nlabel.mid{color:#5eead4}
+.flowline{position:absolute;top:88px;height:0;border-top:3px solid rgba(94,234,212,.65)}
+.flowhead{position:absolute;width:0;height:0;border-top:7px solid transparent;border-bottom:7px solid transparent;border-left:12px solid rgba(94,234,212,.9)}
+.annotation{position:absolute;top:238px;left:50%;transform:translateX(-50%);white-space:nowrap;
+  border:2px dashed rgba(94,234,212,.55);border-radius:999px;padding:13px 32px;font-size:25px;letter-spacing:.1em;color:rgba(230,255,250,.88)}
+.footer{position:absolute;bottom:40px;left:72px;right:72px;display:flex;justify-content:space-between;align-items:center;
+  border-top:1px solid rgba(255,255,255,.14);padding-top:22px;font-size:19px;letter-spacing:.24em;color:rgba(255,255,255,.4)}
+</style>
+</head>
+<body>
+<div class="cover">
+  <div class="sheen"></div>
+  <div class="eyebrow">安克 AI 录音豆 · 产品拆解</div>
+  <div class="num">03</div>
+  <div class="title serif">
+    <div class="line">用户买的不是录音</div>
+    <div class="line accent">是一条知识捷径</div>
+  </div>
+  <div class="takeaway">价值不在单个 AI 按钮，而在“采集—理解—复用”的完整链路。</div>
+  <div class="motif">
+    <div class="node" style="left:0px;top:26px">
+      <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="2" width="6" height="12" rx="3"/><path d="M5 10v2a7 7 0 0 0 14 0v-2"/><line x1="12" y1="19" x2="12" y2="22"/></svg>
+    </div>
+    <div class="node" style="left:162px;top:26px">
+      <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"/><path d="M20 3v4"/><path d="M22 5h-4"/></svg>
+    </div>
+    <div class="node" style="left:324px;top:26px">
+      <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+    </div>
+    <div class="flowline" style="left:132px;width:24px"></div>
+    <div class="flowhead" style="left:152px;top:81px"></div>
+    <div class="flowline" style="left:294px;width:24px"></div>
+    <div class="flowhead" style="left:314px;top:81px"></div>
+    <div class="nlabel" style="left:0px">采集</div>
+    <div class="nlabel mid" style="left:162px">理解</div>
+    <div class="nlabel" style="left:324px">复用</div>
+    <div class="annotation">关键结论 · 仍需人工确认</div>
+  </div>
+  <div class="footer"><span>CAIYANMING · NOTES</span><span>用产品思维拆解 AI</span></div>
+</div>
+</body>
+</html>

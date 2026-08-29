@@ -1,0 +1,1511 @@
+{
+  "code": 0,
+  "data": {
+    "to": "openapi",
+    "result": {
+      "nodes": [
+        {
+          "id": "z001:1",
+          "type": "mind_map",
+          "x": -1,
+          "y": -1,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "Day10 笔记",
+            "font_weight": "bold",
+            "font_size": 16,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#ffffff",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": 1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "Day10 笔记"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#000000",
+            "border_color_type": 0,
+            "theme_border_color_code": 1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color": "#1a1a1a",
+            "fill_color_type": 0,
+            "theme_fill_color_code": 7
+          },
+          "mind_map_root": {
+            "type": "mind_map_round_rect",
+            "layout": "left_right",
+            "line_style": "round_angle",
+            "up_children": [],
+            "down_children": [],
+            "left_children": [],
+            "right_children": [
+              "z001:2",
+              "z001:3",
+              "z001:8",
+              "z001:9",
+              "z001:15",
+              "z001:22"
+            ]
+          },
+          "mind_map": {
+            "parent_id": ""
+          }
+        },
+        {
+          "id": "z001:2",
+          "type": "mind_map",
+          "x": 0,
+          "y": 0,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "16号分享 摸鱼小游戏与生图后端",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": 0,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "16号分享 摸鱼小游戏与生图后端"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#646a73",
+            "border_color_type": 0,
+            "theme_border_color_code": 10,
+            "border_style": "solid",
+            "fill_opacity": 20,
+            "fill_color": "#67bcf0",
+            "fill_color_type": 1
+          },
+          "mind_map_node": {
+            "type": "mind_map_round_rect",
+            "parent_id": "z001:1",
+            "layout_position": "right",
+            "z_index": 0,
+            "children": []
+          },
+          "mind_map": {
+            "parent_id": "z001:1"
+          }
+        },
+        {
+          "id": "z001:3",
+          "type": "mind_map",
+          "x": 1,
+          "y": 1,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "辩论赛与小猪老师点评",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": 0,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "辩论赛与小猪老师点评"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#646a73",
+            "border_color_type": 0,
+            "theme_border_color_code": 10,
+            "border_style": "solid",
+            "fill_opacity": 20,
+            "fill_color": "#9989e8",
+            "fill_color_type": 1
+          },
+          "mind_map_node": {
+            "type": "mind_map_round_rect",
+            "parent_id": "z001:1",
+            "layout_position": "right",
+            "z_index": 1,
+            "children": [
+              "z001:4",
+              "z001:5",
+              "z001:6",
+              "z001:7"
+            ]
+          },
+          "mind_map": {
+            "parent_id": "z001:1"
+          }
+        },
+        {
+          "id": "z001:4",
+          "type": "mind_map",
+          "x": 0,
+          "y": 0,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "产品经理与老板的关系",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "产品经理与老板的关系"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#9989e8",
+            "border_color_type": 1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "mind_map_node": {
+            "type": "mind_map_text",
+            "parent_id": "z001:3",
+            "z_index": 0,
+            "children": []
+          },
+          "mind_map": {
+            "parent_id": "z001:3"
+          }
+        },
+        {
+          "id": "z001:5",
+          "type": "mind_map",
+          "x": 1,
+          "y": 1,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "表达要说服在场观众",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "表达要说服在场观众"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#9989e8",
+            "border_color_type": 1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "mind_map_node": {
+            "type": "mind_map_text",
+            "parent_id": "z001:3",
+            "z_index": 1,
+            "children": []
+          },
+          "mind_map": {
+            "parent_id": "z001:3"
+          }
+        },
+        {
+          "id": "z001:6",
+          "type": "mind_map",
+          "x": 2,
+          "y": 2,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "辩论表达公式·先回答再抛观点给证据",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "辩论表达公式·先回答再抛观点给证据"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#9989e8",
+            "border_color_type": 1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "mind_map_node": {
+            "type": "mind_map_text",
+            "parent_id": "z001:3",
+            "z_index": 2,
+            "children": []
+          },
+          "mind_map": {
+            "parent_id": "z001:3"
+          }
+        },
+        {
+          "id": "z001:7",
+          "type": "mind_map",
+          "x": 3,
+          "y": 3,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "缺少案例",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "缺少案例"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#9989e8",
+            "border_color_type": 1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "mind_map_node": {
+            "type": "mind_map_text",
+            "parent_id": "z001:3",
+            "z_index": 3,
+            "children": []
+          },
+          "mind_map": {
+            "parent_id": "z001:3"
+          }
+        },
+        {
+          "id": "z001:8",
+          "type": "mind_map",
+          "x": 2,
+          "y": 2,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "17号分享 Jeff Dean离职谷歌与AI游戏",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": 0,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "17号分享 Jeff Dean离职谷歌与AI游戏"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#646a73",
+            "border_color_type": 0,
+            "theme_border_color_code": 10,
+            "border_style": "solid",
+            "fill_opacity": 20,
+            "fill_color": "#4dc1af",
+            "fill_color_type": 1
+          },
+          "mind_map_node": {
+            "type": "mind_map_round_rect",
+            "parent_id": "z001:1",
+            "layout_position": "right",
+            "z_index": 2,
+            "children": []
+          },
+          "mind_map": {
+            "parent_id": "z001:1"
+          }
+        },
+        {
+          "id": "z001:9",
+          "type": "mind_map",
+          "x": 3,
+          "y": 3,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "张昕煜学姐 设计个人网站",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": 0,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "张昕煜学姐 设计个人网站"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#646a73",
+            "border_color_type": 0,
+            "theme_border_color_code": 10,
+            "border_style": "solid",
+            "fill_opacity": 20,
+            "fill_color": "#67bcf0",
+            "fill_color_type": 1
+          },
+          "mind_map_node": {
+            "type": "mind_map_round_rect",
+            "parent_id": "z001:1",
+            "layout_position": "right",
+            "z_index": 3,
+            "children": [
+              "z001:10",
+              "z001:11",
+              "z001:12",
+              "z001:13",
+              "z001:14"
+            ]
+          },
+          "mind_map": {
+            "parent_id": "z001:1"
+          }
+        },
+        {
+          "id": "z001:10",
+          "type": "mind_map",
+          "x": 0,
+          "y": 0,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "为什么做·个人影响力与标签",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "为什么做·个人影响力与标签"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#67bcf0",
+            "border_color_type": 1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "mind_map_node": {
+            "type": "mind_map_text",
+            "parent_id": "z001:9",
+            "z_index": 0,
+            "children": []
+          },
+          "mind_map": {
+            "parent_id": "z001:9"
+          }
+        },
+        {
+          "id": "z001:11",
+          "type": "mind_map",
+          "x": 1,
+          "y": 1,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "看成品·首页3秒说清你是谁",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "看成品·首页3秒说清你是谁"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#67bcf0",
+            "border_color_type": 1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "mind_map_node": {
+            "type": "mind_map_text",
+            "parent_id": "z001:9",
+            "z_index": 1,
+            "children": []
+          },
+          "mind_map": {
+            "parent_id": "z001:9"
+          }
+        },
+        {
+          "id": "z001:12",
+          "type": "mind_map",
+          "x": 2,
+          "y": 2,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "怎么想·目标反推",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "怎么想·目标反推"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#67bcf0",
+            "border_color_type": 1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "mind_map_node": {
+            "type": "mind_map_text",
+            "parent_id": "z001:9",
+            "z_index": 2,
+            "children": []
+          },
+          "mind_map": {
+            "parent_id": "z001:9"
+          }
+        },
+        {
+          "id": "z001:13",
+          "type": "mind_map",
+          "x": 3,
+          "y": 3,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "四个必选板块",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "四个必选板块"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#67bcf0",
+            "border_color_type": 1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "mind_map_node": {
+            "type": "mind_map_text",
+            "parent_id": "z001:9",
+            "z_index": 3,
+            "children": []
+          },
+          "mind_map": {
+            "parent_id": "z001:9"
+          }
+        },
+        {
+          "id": "z001:14",
+          "type": "mind_map",
+          "x": 4,
+          "y": 4,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "没有项目时可以放什么",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "没有项目时可以放什么"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#67bcf0",
+            "border_color_type": 1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "mind_map_node": {
+            "type": "mind_map_text",
+            "parent_id": "z001:9",
+            "z_index": 4,
+            "children": []
+          },
+          "mind_map": {
+            "parent_id": "z001:9"
+          }
+        },
+        {
+          "id": "z001:15",
+          "type": "mind_map",
+          "x": 4,
+          "y": 4,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "贾程博师兄 Agent是什么",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": 0,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "贾程博师兄 Agent是什么"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#646a73",
+            "border_color_type": 0,
+            "theme_border_color_code": 10,
+            "border_style": "solid",
+            "fill_opacity": 20,
+            "fill_color": "#9989e8",
+            "fill_color_type": 1
+          },
+          "mind_map_node": {
+            "type": "mind_map_round_rect",
+            "parent_id": "z001:1",
+            "layout_position": "right",
+            "z_index": 4,
+            "children": [
+              "z001:16",
+              "z001:17",
+              "z001:18",
+              "z001:19",
+              "z001:20",
+              "z001:21"
+            ]
+          },
+          "mind_map": {
+            "parent_id": "z001:1"
+          }
+        },
+        {
+          "id": "z001:16",
+          "type": "mind_map",
+          "x": 0,
+          "y": 0,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "agent harness 等于LLM加执行系统",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "agent harness 等于LLM加执行系统"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#9989e8",
+            "border_color_type": 1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "mind_map_node": {
+            "type": "mind_map_text",
+            "parent_id": "z001:15",
+            "z_index": 0,
+            "children": []
+          },
+          "mind_map": {
+            "parent_id": "z001:15"
+          }
+        },
+        {
+          "id": "z001:17",
+          "type": "mind_map",
+          "x": 1,
+          "y": 1,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "组成·system prompt与tool",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "组成·system prompt与tool"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#9989e8",
+            "border_color_type": 1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "mind_map_node": {
+            "type": "mind_map_text",
+            "parent_id": "z001:15",
+            "z_index": 1,
+            "children": []
+          },
+          "mind_map": {
+            "parent_id": "z001:15"
+          }
+        },
+        {
+          "id": "z001:18",
+          "type": "mind_map",
+          "x": 2,
+          "y": 2,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "Pi agent 性价比高",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "Pi agent 性价比高"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#9989e8",
+            "border_color_type": 1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "mind_map_node": {
+            "type": "mind_map_text",
+            "parent_id": "z001:15",
+            "z_index": 2,
+            "children": []
+          },
+          "mind_map": {
+            "parent_id": "z001:15"
+          }
+        },
+        {
+          "id": "z001:19",
+          "type": "mind_map",
+          "x": 3,
+          "y": 3,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "上下文压缩与余量",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "上下文压缩与余量"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#9989e8",
+            "border_color_type": 1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "mind_map_node": {
+            "type": "mind_map_text",
+            "parent_id": "z001:15",
+            "z_index": 3,
+            "children": []
+          },
+          "mind_map": {
+            "parent_id": "z001:15"
+          }
+        },
+        {
+          "id": "z001:20",
+          "type": "mind_map",
+          "x": 4,
+          "y": 4,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "Agent Loop",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "Agent Loop"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#9989e8",
+            "border_color_type": 1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "mind_map_node": {
+            "type": "mind_map_text",
+            "parent_id": "z001:15",
+            "z_index": 4,
+            "children": []
+          },
+          "mind_map": {
+            "parent_id": "z001:15"
+          }
+        },
+        {
+          "id": "z001:21",
+          "type": "mind_map",
+          "x": 5,
+          "y": 5,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "常见架构·open claw Hermes Claude Code",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "常见架构·open claw Hermes Claude Code"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#9989e8",
+            "border_color_type": 1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "mind_map_node": {
+            "type": "mind_map_text",
+            "parent_id": "z001:15",
+            "z_index": 5,
+            "children": []
+          },
+          "mind_map": {
+            "parent_id": "z001:15"
+          }
+        },
+        {
+          "id": "z001:22",
+          "type": "mind_map",
+          "x": 5,
+          "y": 5,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "诗轩师兄带装 Pi CLI",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": 0,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "诗轩师兄带装 Pi CLI"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#646a73",
+            "border_color_type": 0,
+            "theme_border_color_code": 10,
+            "border_style": "solid",
+            "fill_opacity": 20,
+            "fill_color": "#4dc1af",
+            "fill_color_type": 1
+          },
+          "mind_map_node": {
+            "type": "mind_map_round_rect",
+            "parent_id": "z001:1",
+            "layout_position": "right",
+            "z_index": 5,
+            "children": []
+          },
+          "mind_map": {
+            "parent_id": "z001:1"
+          }
+        }
+      ]
+    },
+    "metadata": {
+      "width": 0,
+      "height": 0,
+      "nodeCount": 22,
+      "connectorCount": 0
+    }
+  },
+  "error": ""
+}

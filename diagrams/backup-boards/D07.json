@@ -1,0 +1,378 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "nodes": [
+      {
+        "angle": 0,
+        "height": 28.27199935913086,
+        "id": "z1:13",
+        "mind_map": {
+          "parent_id": "z2:7"
+        },
+        "mind_map_node": {
+          "collapsed": false,
+          "layout_position": "right",
+          "parent_id": "z2:7",
+          "type": "mind_map_text",
+          "z_index": 3
+        },
+        "style": {
+          "border_color": "#5178c6",
+          "border_color_type": 0,
+          "border_opacity": 100,
+          "border_style": "solid",
+          "border_width": "narrow",
+          "fill_color_type": 0,
+          "fill_opacity": 100,
+          "theme_border_color_code": -1,
+          "theme_fill_color_code": -1
+        },
+        "text": {
+          "angle": 0,
+          "font_size": 14,
+          "font_weight": "bold",
+          "horizontal_align": "left",
+          "italic": false,
+          "line_through": false,
+          "text": "模型参数",
+          "text_background_color_type": 0,
+          "text_color": "#1f2329",
+          "text_color_type": 0,
+          "theme_text_background_color_code": -1,
+          "theme_text_color_code": -1,
+          "underline": false,
+          "vertical_align": "mid"
+        },
+        "type": "mind_map",
+        "width": 72,
+        "x": 708.5859375,
+        "y": 681.8216552734375,
+        "z_index": 6
+      },
+      {
+        "angle": 0,
+        "height": 48,
+        "id": "z2:7",
+        "mind_map": {
+          "parent_id": ""
+        },
+        "mind_map_root": {
+          "layout": "left_right",
+          "line_style": "round_angle",
+          "right_children": [
+            "z2:8",
+            "z2:9",
+            "z2:10",
+            "z1:13"
+          ],
+          "type": "mind_map_round_rect"
+        },
+        "style": {
+          "border_color": "#5178c6",
+          "border_color_type": 0,
+          "border_opacity": 100,
+          "border_style": "solid",
+          "border_width": "narrow",
+          "fill_color": "#5178c6",
+          "fill_color_type": 0,
+          "fill_opacity": 100,
+          "theme_border_color_code": -1,
+          "theme_fill_color_code": -1
+        },
+        "text": {
+          "angle": 0,
+          "font_size": 16,
+          "font_weight": "bold",
+          "horizontal_align": "center",
+          "italic": false,
+          "line_through": false,
+          "text": "DAY07 笔记",
+          "text_background_color_type": 0,
+          "text_color": "#ffffff",
+          "text_color_type": 0,
+          "theme_text_background_color_code": -1,
+          "theme_text_color_code": -1,
+          "underline": false,
+          "vertical_align": "mid"
+        },
+        "type": "mind_map",
+        "width": 124.9599609375,
+        "x": 523.6259765625,
+        "y": 567.4136352539062,
+        "z_index": 0
+      },
+      {
+        "angle": 0,
+        "height": 28.27199935913086,
+        "id": "z2:8",
+        "mind_map": {
+          "parent_id": "z2:7"
+        },
+        "mind_map_node": {
+          "children": [
+            "z1:11",
+            "z1:12"
+          ],
+          "collapsed": false,
+          "layout_position": "right",
+          "parent_id": "z2:7",
+          "type": "mind_map_text",
+          "z_index": 0
+        },
+        "style": {
+          "border_color": "#5178c6",
+          "border_color_type": 0,
+          "border_opacity": 100,
+          "border_style": "solid",
+          "border_width": "narrow",
+          "fill_color_type": 0,
+          "fill_opacity": 100,
+          "theme_border_color_code": -1,
+          "theme_fill_color_code": -1
+        },
+        "text": {
+          "angle": 0,
+          "font_size": 14,
+          "font_weight": "bold",
+          "horizontal_align": "left",
+          "italic": false,
+          "line_through": false,
+          "text": "10号分享AI生图技术",
+          "text_background_color_type": 0,
+          "text_color": "#1f2329",
+          "text_color_type": 0,
+          "theme_text_background_color_code": -1,
+          "theme_text_color_code": -1,
+          "underline": false,
+          "vertical_align": "mid"
+        },
+        "type": "mind_map",
+        "width": 144.08596801757812,
+        "x": 708.5859375,
+        "y": 484.5976257324219,
+        "z_index": 1
+      },
+      {
+        "angle": 0,
+        "height": 56.54399871826172,
+        "id": "z1:11",
+        "mind_map": {
+          "parent_id": "z2:8"
+        },
+        "mind_map_node": {
+          "collapsed": false,
+          "parent_id": "z2:8",
+          "type": "mind_map_text",
+          "z_index": 0
+        },
+        "style": {
+          "border_color": "#5178c6",
+          "border_color_type": 0,
+          "border_opacity": 100,
+          "border_style": "solid",
+          "border_width": "narrow",
+          "fill_color_type": 0,
+          "fill_opacity": 100,
+          "theme_border_color_code": -1,
+          "theme_fill_color_code": -1
+        },
+        "text": {
+          "angle": 0,
+          "font_size": 14,
+          "font_weight": "regular",
+          "horizontal_align": "left",
+          "italic": false,
+          "line_through": false,
+          "rich_text": {
+            "paragraphs": [
+              {
+                "elements": [
+                  {
+                    "element_type": 0,
+                    "text_element": {
+                      "text": "会看→会画→协作生图",
+                      "text_style": {}
+                    }
+                  }
+                ],
+                "indent": 0,
+                "list_begin_index": 0,
+                "paragraph_type": 0,
+                "quote": false
+              },
+              {
+                "elements": [
+                  {
+                    "element_type": 0,
+                    "text_element": {
+                      "text": "diffusion降噪：逆向打码",
+                      "text_style": {}
+                    }
+                  }
+                ],
+                "indent": 0,
+                "list_begin_index": 0,
+                "paragraph_type": 0,
+                "quote": true
+              }
+            ]
+          },
+          "text": "会看→会画→协作生图\ndiffusion降噪：逆向打码",
+          "text_background_color_type": 0,
+          "text_color": "#1f2329",
+          "text_color_type": 0,
+          "theme_text_background_color_code": -1,
+          "theme_text_color_code": -1,
+          "underline": false,
+          "vertical_align": "mid"
+        },
+        "type": "mind_map",
+        "width": 181.56790161132812,
+        "x": 912.6719360351562,
+        "y": 440.18963623046875,
+        "z_index": 4
+      },
+      {
+        "angle": 0,
+        "height": 48.54399871826172,
+        "id": "z1:12",
+        "mind_map": {
+          "parent_id": "z2:8"
+        },
+        "mind_map_node": {
+          "collapsed": false,
+          "parent_id": "z2:8",
+          "type": "mind_map_text",
+          "z_index": 1
+        },
+        "style": {
+          "border_color": "#5178c6",
+          "border_color_type": 0,
+          "border_opacity": 100,
+          "border_style": "solid",
+          "border_width": "narrow",
+          "fill_color_type": 0,
+          "fill_opacity": 100,
+          "theme_border_color_code": -1,
+          "theme_fill_color_code": -1
+        },
+        "text": {
+          "angle": 0,
+          "font_size": 14,
+          "font_weight": "regular",
+          "horizontal_align": "left",
+          "italic": false,
+          "line_through": false,
+          "text": "胶布：1.分享过程中，可以适当无视周围不相关的信息；2.会议时长过长的解决方法；3.会议不做决策",
+          "text_background_color_type": 0,
+          "text_color": "#1f2329",
+          "text_color_type": 0,
+          "theme_text_background_color_code": -1,
+          "theme_text_color_code": -1,
+          "underline": false,
+          "vertical_align": "mid"
+        },
+        "type": "mind_map",
+        "width": 610.9859619140625,
+        "x": 912.6719360351562,
+        "y": 504.733642578125,
+        "z_index": 5
+      },
+      {
+        "angle": 0,
+        "height": 28.27199935913086,
+        "id": "z2:9",
+        "mind_map": {
+          "parent_id": "z2:7"
+        },
+        "mind_map_node": {
+          "collapsed": false,
+          "layout_position": "right",
+          "parent_id": "z2:7",
+          "type": "mind_map_text",
+          "z_index": 1
+        },
+        "style": {
+          "border_color": "#5178c6",
+          "border_color_type": 0,
+          "border_opacity": 100,
+          "border_style": "solid",
+          "border_width": "narrow",
+          "fill_color_type": 0,
+          "fill_opacity": 100,
+          "theme_border_color_code": -1,
+          "theme_fill_color_code": -1
+        },
+        "text": {
+          "angle": 0,
+          "font_size": 14,
+          "font_weight": "bold",
+          "horizontal_align": "left",
+          "italic": false,
+          "line_through": false,
+          "text": "智能体概念与应用",
+          "text_background_color_type": 0,
+          "text_color": "#1f2329",
+          "text_color_type": 0,
+          "theme_text_background_color_code": -1,
+          "theme_text_color_code": -1,
+          "underline": false,
+          "vertical_align": "mid"
+        },
+        "type": "mind_map",
+        "width": 128,
+        "x": 708.5859375,
+        "y": 577.2776489257812,
+        "z_index": 2
+      },
+      {
+        "angle": 0,
+        "height": 28.27199935913086,
+        "id": "z2:10",
+        "mind_map": {
+          "parent_id": "z2:7"
+        },
+        "mind_map_node": {
+          "collapsed": false,
+          "layout_position": "right",
+          "parent_id": "z2:7",
+          "type": "mind_map_text",
+          "z_index": 2
+        },
+        "style": {
+          "border_color": "#5178c6",
+          "border_color_type": 0,
+          "border_opacity": 100,
+          "border_style": "solid",
+          "border_width": "narrow",
+          "fill_color_type": 0,
+          "fill_opacity": 100,
+          "theme_border_color_code": -1,
+          "theme_fill_color_code": -1
+        },
+        "text": {
+          "angle": 0,
+          "font_size": 14,
+          "font_weight": "bold",
+          "horizontal_align": "left",
+          "italic": false,
+          "line_through": false,
+          "text": "11号分享 Robot Phone",
+          "text_background_color_type": 0,
+          "text_color": "#1f2329",
+          "text_color_type": 0,
+          "theme_text_background_color_code": -1,
+          "theme_text_color_code": -1,
+          "underline": false,
+          "vertical_align": "mid"
+        },
+        "type": "mind_map",
+        "width": 166.4298858642578,
+        "x": 708.5859375,
+        "y": 629.5496215820312,
+        "z_index": 3
+      }
+    ]
+  }
+}

@@ -328,16 +328,26 @@ button,input{font:inherit;color:inherit;background:none;border:none;outline:none
 /* 精选笔记 */
 .notes-grid{margin-top:44px;display:grid;grid-template-columns:repeat(3,1fr);gap:14px;align-items:stretch}
 .note-card{
-  padding:24px;border-radius:20px;min-height:420px;
+  padding:24px;border-radius:20px;min-height:500px;
   display:flex;flex-direction:column;align-items:flex-start;
+  cursor:pointer;transition:transform .3s var(--ease),box-shadow .3s var(--ease);
 }
-.note-thumb{width:100%;aspect-ratio:3/2;margin-bottom:24px}
+.note-card:hover{transform:translateY(-6px);box-shadow:0 24px 60px rgba(0,0,0,.42)}
+.note-card:focus-visible{outline:2px solid #fff;outline-offset:4px}
+.note-thumb{
+  width:100%;aspect-ratio:3/2;margin-bottom:24px;object-fit:cover;
+  border:1px solid rgba(255,255,255,.12);border-radius:14px;background:#0a0a0a;
+}
 .note-tag{
   font-family:var(--ui);font-size:11px;letter-spacing:.1em;text-transform:uppercase;
-  color:rgba(255,255,255,.45);margin:auto 0 12px 0;
+  color:rgba(255,255,255,.45);margin:0 0 12px 0;
 }
-.note-title{font-size:24px;font-weight:400;line-height:1.3;color:#fff;margin:0 0 10px 0}
+.note-title{font-size:22px;font-weight:400;line-height:1.35;color:#fff;margin:0 0 12px 0}
 .note-excerpt{font-family:var(--ui);font-size:14px;line-height:1.7;color:rgba(255,255,255,.64)}
+.note-meta{
+  margin-top:auto;padding-top:22px;font-family:var(--ui);font-size:12px;letter-spacing:.04em;
+  color:rgba(255,255,255,.82);
+}
 
 /* 联系 */
 .contact-statement{
@@ -551,26 +561,29 @@ button,input{font:inherit;color:inherit;background:none;border:none;outline:none
       <div class="section-inner">
         <p class="eyebrow">精选笔记</p>
         <h2 class="section-title">用产品思维拆解 <span class="pill">AI</span></h2>
-        <p class="section-hint">从你的学习笔记、口播稿、分享PPT里，挑2-3篇整理成专题，展示思考路径，而不是罗列知识点。</p>
+        <p class="section-hint">这里收录我对 AI 产品、数据规则与真实产品案例的拆解。每一篇都从具体问题出发，给出可以被检验的判断。</p>
         <div class="notes-grid">
-          <article class="note-card liquid-glass reveal">
-            <div class="placeholder note-thumb">配图<br>480×320px</div>
-            <p class="note-tag">【分类占位】</p>
-            <h3 class="note-title">【笔记标题占位】</h3>
-            <p class="note-excerpt">【一句话导读占位】用一句话说清楚这篇笔记在讨论什么问题、给出了什么判断。</p>
-          </article>
-          <article class="note-card liquid-glass reveal">
-            <div class="placeholder note-thumb">配图<br>480×320px</div>
-            <p class="note-tag">【分类占位】</p>
-            <h3 class="note-title">【笔记标题占位】</h3>
-            <p class="note-excerpt">【一句话导读占位】用一句话说清楚这篇笔记在讨论什么问题、给出了什么判断。</p>
-          </article>
-          <article class="note-card liquid-glass reveal">
-            <div class="placeholder note-thumb">配图<br>480×320px</div>
-            <p class="note-tag">【分类占位】</p>
-            <h3 class="note-title">【笔记标题占位】</h3>
-            <p class="note-excerpt">【一句话导读占位】用一句话说清楚这篇笔记在讨论什么问题、给出了什么判断。</p>
-          </article>
+          <a class="note-card liquid-glass reveal" href="assets/content/from-product-manager-to-ai-product-manager.docx" download aria-label="下载文章：AI 产品经理，不是换岗位，而是学会管理不确定性">
+            <img class="note-thumb" src="assets/images/notes/ai-product-manager-boundaries-v2.png" alt="封面插画：AI 产品经理把不确定的模型能力，装进场景、评估与责任的边界" loading="lazy">
+            <p class="note-tag">转型思考 · 文章</p>
+            <h3 class="note-title">AI 产品经理，不是换岗位，而是学会管理不确定性</h3>
+            <p class="note-excerpt">传统产品基本功没有失效；真正新增的，是把模型能力放进清晰的场景、评估和责任边界。</p>
+            <span class="note-meta">下载文章 · DOCX ↓</span>
+          </a>
+          <a class="note-card liquid-glass reveal" href="assets/content/data-rule-priorities.docx" download aria-label="下载文章：规则不是一碗水端平，模型微调中的优先级判断">
+            <img class="note-thumb" src="assets/images/notes/data-rule-priorities-v2.png" alt="封面插画：模型微调按安全红线、核心场景与长尾问题分层分配优先级" loading="lazy">
+            <p class="note-tag">数据标注 · 文章</p>
+            <h3 class="note-title">规则不是一碗水端平：模型微调中的优先级判断</h3>
+            <p class="note-excerpt">资源有限时，专业不是平均用力，而是守住安全红线、重点投入核心场景，并让每次取舍都能被业务目标解释。</p>
+            <span class="note-meta">下载文章 · DOCX ↓</span>
+          </a>
+          <a class="note-card liquid-glass reveal" href="assets/content/anker-ai-recorder-product-teardown.pptx" download aria-label="下载分享：安克 AI 录音豆，用户买的不是录音，而是一条知识捷径">
+            <img class="note-thumb" src="assets/images/notes/anker-ai-recorder-v2.png" alt="封面插画：安克 AI 录音豆从采集、理解到复用的完整产品链路" loading="lazy">
+            <p class="note-tag">产品拆解 · 分享 PPT</p>
+            <h3 class="note-title">安克 AI 录音豆：用户买的不是录音，而是一条知识捷径</h3>
+            <p class="note-excerpt">好的 AI 产品价值不在单个模型按钮，而在“采集—理解—复用”的完整链路，并明确哪些结果必须人工确认。</p>
+            <span class="note-meta">下载分享 · PPTX ↓</span>
+          </a>
         </div>
       </div>
     </section>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1200px;height:800px;overflow:hidden}
+body{font-family:-apple-system,"PingFang SC","Helvetica Neue",sans-serif;color:#fff;-webkit-font-smoothing:antialiased}
+.serif{font-family:"Songti SC","STSong","Source Han Serif SC",serif}
+.cover{position:relative;width:1200px;height:800px;padding:64px 72px 0;
+  background:radial-gradient(1200px 800px at 78% 12%, #1e2347 0%, #141735 46%, #0c0e1e 100%);overflow:hidden}
+.sheen{position:absolute;inset:0;background:radial-gradient(900px 460px at 88% -8%, rgba(255,255,255,.08), transparent 62%)}
+.eyebrow{position:absolute;top:64px;left:72px;font-size:21px;letter-spacing:.32em;color:rgba(255,255,255,.55)}
+.num{position:absolute;top:52px;right:72px;font-family:"Songti SC",serif;font-style:italic;font-size:46px;color:rgba(255,255,255,.32)}
+.title{position:absolute;top:168px;left:72px;width:560px}
+.title .line{font-size:58px;font-weight:600;line-height:1.24;letter-spacing:.01em}
+.title .accent{color:#c9d6ff}
+.takeaway{position:absolute;top:452px;left:72px;width:540px;font-size:27px;line-height:1.62;color:rgba(255,255,255,.62)}
+/* 边界图 */
+.motif{position:absolute;left:712px;top:176px;width:416px;height:420px}
+.motif .frame{position:absolute;inset:0;border:3px dashed rgba(157,180,255,.55);border-radius:30px;background:rgba(157,180,255,.05)}
+.motif .frametag{position:absolute;top:-17px;left:34px;padding:6px 22px;background:#1e2347;border:1px solid rgba(157,180,255,.4);border-radius:999px;font-size:25px;color:#dfe7ff;letter-spacing:.14em}
+.dot{position:absolute;border-radius:50%}
+.chip{position:absolute;top:482px;padding:13px 26px;border-radius:999px;background:#eef1ff;color:#161a33;font-size:26px;font-weight:600}
+.caption{position:absolute;top:634px;left:712px;width:416px;text-align:center;font-size:26px;color:rgba(201,214,255,.85);letter-spacing:.06em}
+.footer{position:absolute;bottom:40px;left:72px;right:72px;display:flex;justify-content:space-between;align-items:center;
+  border-top:1px solid rgba(255,255,255,.14);padding-top:22px;font-size:19px;letter-spacing:.24em;color:rgba(255,255,255,.4)}
+</style>
+</head>
+<body>
+<div class="cover">
+  <div class="sheen"></div>
+  <div class="eyebrow">AI 产品经理 · 转型思考</div>
+  <div class="num">01</div>
+  <div class="title serif">
+    <div class="line">不是换岗位</div>
+    <div class="line">是学会管理</div>
+    <div class="line accent">不确定性</div>
+  </div>
+  <div class="takeaway">把不确定的模型能力，装进场景、评估与责任的边界里。</div>
+  <div class="motif">
+    <div class="frame"></div>
+    <div class="frametag">能力边界</div>
+    <div class="dot" style="left:88px;top:104px;width:10px;height:10px;background:rgba(157,180,255,.9)"></div>
+    <div class="dot" style="left:148px;top:89px;width:7px;height:7px;background:rgba(255,255,255,.55)"></div>
+    <div class="dot" style="left:218px;top:114px;width:12px;height:12px;background:rgba(157,180,255,.85)"></div>
+    <div class="dot" style="left:283px;top:82px;width:8px;height:8px;background:rgba(255,255,255,.6)"></div>
+    <div class="dot" style="left:328px;top:124px;width:10px;height:10px;background:rgba(157,180,255,.9)"></div>
+    <div class="dot" style="left:78px;top:159px;width:8px;height:8px;background:rgba(255,255,255,.6)"></div>
+    <div class="dot" style="left:138px;top:174px;width:14px;height:14px;background:rgba(157,180,255,.95)"></div>
+    <div class="dot" style="left:203px;top:154px;width:9px;height:9px;background:rgba(255,255,255,.65)"></div>
+    <div class="dot" style="left:263px;top:184px;width:11px;height:11px;background:rgba(157,180,255,.85)"></div>
+    <div class="dot" style="left:318px;top:169px;width:7px;height:7px;background:rgba(255,255,255,.55)"></div>
+    <div class="dot" style="left:98px;top:219px;width:9px;height:9px;background:rgba(255,255,255,.7)"></div>
+    <div class="dot" style="left:168px;top:229px;width:12px;height:12px;background:rgba(157,180,255,.9)"></div>
+    <div class="dot" style="left:228px;top:209px;width:8px;height:8px;background:rgba(255,255,255,.6)"></div>
+    <div class="dot" style="left:293px;top:229px;width:10px;height:10px;background:rgba(157,180,255,.8)"></div>
+    <div class="dot" style="left:130px;top:262px;width:10px;height:10px;background:rgba(157,180,255,.88)"></div>
+    <div class="dot" style="left:200px;top:272px;width:8px;height:8px;background:rgba(255,255,255,.6)"></div>
+    <div class="dot" style="left:270px;top:258px;width:11px;height:11px;background:rgba(157,180,255,.85)"></div>
+    <div class="dot" style="left:308px;top:250px;width:34px;height:34px;border:3px solid rgba(201,214,255,.9);background:transparent;border-radius:50%"></div>
+    <div class="chip" style="left:34px">场景</div>
+    <div class="chip" style="left:156px">评估</div>
+    <div class="chip" style="left:278px">责任</div>
+  </div>
+  <div class="caption">把不确定，装进确定的边界</div>
+  <div class="footer"><span>CAIYANMING · NOTES</span><span>用产品思维拆解 AI</span></div>
+</div>
+</body>
+</html>

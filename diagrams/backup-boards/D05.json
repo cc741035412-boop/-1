@@ -1,0 +1,297 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "nodes": [
+      {
+        "angle": 0,
+        "height": 48,
+        "id": "z2:7",
+        "mind_map": {
+          "parent_id": ""
+        },
+        "mind_map_root": {
+          "layout": "left_right",
+          "line_style": "round_angle",
+          "right_children": [
+            "z2:8",
+            "z1:11",
+            "z2:9",
+            "z2:10"
+          ],
+          "type": "mind_map_round_rect"
+        },
+        "style": {
+          "border_color": "#5178c6",
+          "border_color_type": 0,
+          "border_opacity": 100,
+          "border_style": "solid",
+          "border_width": "narrow",
+          "fill_color": "#5178c6",
+          "fill_color_type": 0,
+          "fill_opacity": 100,
+          "theme_border_color_code": -1,
+          "theme_fill_color_code": -1
+        },
+        "text": {
+          "angle": 0,
+          "font_size": 16,
+          "font_weight": "bold",
+          "horizontal_align": "center",
+          "italic": false,
+          "line_through": false,
+          "text": "",
+          "text_background_color_type": 0,
+          "text_color": "#ffffff",
+          "text_color_type": 0,
+          "theme_text_background_color_code": -1,
+          "theme_text_color_code": -1,
+          "underline": false,
+          "vertical_align": "mid"
+        },
+        "type": "mind_map",
+        "width": 104,
+        "x": 523.6259765625,
+        "y": 567.4136352539062,
+        "z_index": 0
+      },
+      {
+        "angle": 0,
+        "height": 28.27199935913086,
+        "id": "z2:8",
+        "mind_map": {
+          "parent_id": "z2:7"
+        },
+        "mind_map_node": {
+          "collapsed": false,
+          "layout_position": "right",
+          "parent_id": "z2:7",
+          "type": "mind_map_text",
+          "z_index": 0
+        },
+        "style": {
+          "border_color": "#5178c6",
+          "border_color_type": 0,
+          "border_opacity": 100,
+          "border_style": "solid",
+          "border_width": "narrow",
+          "fill_color_type": 0,
+          "fill_opacity": 100,
+          "theme_border_color_code": -1,
+          "theme_fill_color_code": -1
+        },
+        "text": {
+          "angle": 0,
+          "font_size": 14,
+          "font_weight": "regular",
+          "horizontal_align": "left",
+          "italic": false,
+          "line_through": false,
+          "text": "辩论赛",
+          "text_background_color_type": 0,
+          "text_color": "#1f2329",
+          "text_color_type": 0,
+          "theme_text_background_color_code": -1,
+          "theme_text_color_code": -1,
+          "underline": false,
+          "vertical_align": "mid"
+        },
+        "type": "mind_map",
+        "width": 58,
+        "x": 687.6259765625,
+        "y": 498.86962890625,
+        "z_index": 1
+      },
+      {
+        "angle": 0,
+        "height": 28.27199935913086,
+        "id": "z1:11",
+        "mind_map": {
+          "parent_id": "z2:7"
+        },
+        "mind_map_node": {
+          "collapsed": false,
+          "layout_position": "right",
+          "parent_id": "z2:7",
+          "type": "mind_map_text",
+          "z_index": 1
+        },
+        "style": {
+          "border_color": "#5178c6",
+          "border_color_type": 0,
+          "border_opacity": 100,
+          "border_style": "solid",
+          "border_width": "narrow",
+          "fill_color_type": 0,
+          "fill_opacity": 100,
+          "theme_border_color_code": -1,
+          "theme_fill_color_code": -1
+        },
+        "text": {
+          "angle": 0,
+          "font_size": 14,
+          "font_weight": "regular",
+          "horizontal_align": "left",
+          "italic": false,
+          "line_through": false,
+          "text": "胶布点评",
+          "text_background_color_type": 0,
+          "text_color": "#1f2329",
+          "text_color_type": 0,
+          "theme_text_background_color_code": -1,
+          "theme_text_color_code": -1,
+          "underline": false,
+          "vertical_align": "mid"
+        },
+        "type": "mind_map",
+        "width": 72,
+        "x": 687.6259765625,
+        "y": 551.1416625976562,
+        "z_index": 4
+      },
+      {
+        "angle": 0,
+        "height": 28.27199935913086,
+        "id": "z2:9",
+        "mind_map": {
+          "parent_id": "z2:7"
+        },
+        "mind_map_node": {
+          "children": [
+            "z1:12"
+          ],
+          "collapsed": false,
+          "layout_position": "right",
+          "parent_id": "z2:7",
+          "type": "mind_map_text",
+          "z_index": 2
+        },
+        "style": {
+          "border_color": "#5178c6",
+          "border_color_type": 0,
+          "border_opacity": 100,
+          "border_style": "solid",
+          "border_width": "narrow",
+          "fill_color_type": 0,
+          "fill_opacity": 100,
+          "theme_border_color_code": -1,
+          "theme_fill_color_code": -1
+        },
+        "text": {
+          "angle": 0,
+          "font_size": 14,
+          "font_weight": "bold",
+          "horizontal_align": "left",
+          "italic": false,
+          "line_through": false,
+          "text": "08分享 梁文锋及其创立Deepseek的核心战略",
+          "text_background_color_type": 0,
+          "text_color": "#1f2329",
+          "text_color_type": 0,
+          "theme_text_background_color_code": -1,
+          "theme_text_color_code": -1,
+          "underline": false,
+          "vertical_align": "mid"
+        },
+        "type": "mind_map",
+        "width": 298.5478515625,
+        "x": 687.6259765625,
+        "y": 603.4136352539062,
+        "z_index": 2
+      },
+      {
+        "angle": 0,
+        "height": 28.27199935913086,
+        "id": "z1:12",
+        "mind_map": {
+          "parent_id": "z2:9"
+        },
+        "mind_map_node": {
+          "collapsed": false,
+          "parent_id": "z2:9",
+          "type": "mind_map_text",
+          "z_index": 0
+        },
+        "style": {
+          "border_color": "#5178c6",
+          "border_color_type": 0,
+          "border_opacity": 100,
+          "border_style": "solid",
+          "border_width": "narrow",
+          "fill_color_type": 0,
+          "fill_opacity": 100,
+          "theme_border_color_code": -1,
+          "theme_fill_color_code": -1
+        },
+        "text": {
+          "angle": 0,
+          "font_size": 14,
+          "font_weight": "regular",
+          "horizontal_align": "left",
+          "italic": false,
+          "line_through": false,
+          "text": "胶布建议",
+          "text_background_color_type": 0,
+          "text_color": "#1f2329",
+          "text_color_type": 0,
+          "theme_text_background_color_code": -1,
+          "theme_text_color_code": -1,
+          "underline": false,
+          "vertical_align": "mid"
+        },
+        "type": "mind_map",
+        "width": 72,
+        "x": 1046.173828125,
+        "y": 603.4136352539062,
+        "z_index": 5
+      },
+      {
+        "angle": 0,
+        "height": 28.27199935913086,
+        "id": "z2:10",
+        "mind_map": {
+          "parent_id": "z2:7"
+        },
+        "mind_map_node": {
+          "collapsed": false,
+          "layout_position": "right",
+          "parent_id": "z2:7",
+          "type": "mind_map_text",
+          "z_index": 3
+        },
+        "style": {
+          "border_color": "#5178c6",
+          "border_color_type": 0,
+          "border_opacity": 100,
+          "border_style": "solid",
+          "border_width": "narrow",
+          "fill_color_type": 0,
+          "fill_opacity": 100,
+          "theme_border_color_code": -1,
+          "theme_fill_color_code": -1
+        },
+        "text": {
+          "angle": 0,
+          "font_size": 14,
+          "font_weight": "bold",
+          "horizontal_align": "left",
+          "italic": false,
+          "line_through": false,
+          "text": "",
+          "text_background_color_type": 0,
+          "text_color": "#1f2329",
+          "text_color_type": 0,
+          "theme_text_background_color_code": -1,
+          "theme_text_color_code": -1,
+          "underline": false,
+          "vertical_align": "mid"
+        },
+        "type": "mind_map",
+        "width": 72,
+        "x": 687.6259765625,
+        "y": 655.6856689453125,
+        "z_index": 3
+      }
+    ]
+  }
+}

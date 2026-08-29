@@ -1,0 +1,2592 @@
+{
+  "code": 0,
+  "data": {
+    "to": "openapi",
+    "result": {
+      "nodes": [
+        {
+          "id": "z001:1",
+          "type": "mind_map",
+          "x": -1,
+          "y": -1,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "Day11 笔记",
+            "font_weight": "bold",
+            "font_size": 16,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#ffffff",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": 1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "Day11 笔记"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#000000",
+            "border_color_type": 0,
+            "theme_border_color_code": 1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color": "#1a1a1a",
+            "fill_color_type": 0,
+            "theme_fill_color_code": 7
+          },
+          "mind_map_root": {
+            "type": "mind_map_round_rect",
+            "layout": "left_right",
+            "line_style": "round_angle",
+            "up_children": [],
+            "down_children": [],
+            "left_children": [],
+            "right_children": [
+              "z001:2",
+              "z001:5",
+              "z001:11",
+              "z001:17",
+              "z001:23",
+              "z001:28",
+              "z001:32",
+              "z001:34"
+            ]
+          },
+          "mind_map": {
+            "parent_id": ""
+          }
+        },
+        {
+          "id": "z001:2",
+          "type": "mind_map",
+          "x": 0,
+          "y": 0,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "17号分享 cordis架构",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": 0,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "17号分享 cordis架构"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#646a73",
+            "border_color_type": 0,
+            "theme_border_color_code": 10,
+            "border_style": "solid",
+            "fill_opacity": 20,
+            "fill_color": "#67bcf0",
+            "fill_color_type": 1
+          },
+          "mind_map_node": {
+            "type": "mind_map_round_rect",
+            "parent_id": "z001:1",
+            "layout_position": "right",
+            "z_index": 0,
+            "children": [
+              "z001:3",
+              "z001:4"
+            ]
+          },
+          "mind_map": {
+            "parent_id": "z001:1"
+          }
+        },
+        {
+          "id": "z001:3",
+          "type": "mind_map",
+          "x": 0,
+          "y": 0,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "规定模型系统与插件运行方式",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "规定模型系统与插件运行方式"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#67bcf0",
+            "border_color_type": 1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "mind_map_node": {
+            "type": "mind_map_text",
+            "parent_id": "z001:2",
+            "z_index": 0,
+            "children": []
+          },
+          "mind_map": {
+            "parent_id": "z001:2"
+          }
+        },
+        {
+          "id": "z001:4",
+          "type": "mind_map",
+          "x": 1,
+          "y": 1,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "胶布·有没有必要解耦 能不能解耦",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "胶布·有没有必要解耦 能不能解耦"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#67bcf0",
+            "border_color_type": 1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "mind_map_node": {
+            "type": "mind_map_text",
+            "parent_id": "z001:2",
+            "z_index": 1,
+            "children": []
+          },
+          "mind_map": {
+            "parent_id": "z001:2"
+          }
+        },
+        {
+          "id": "z001:5",
+          "type": "mind_map",
+          "x": 1,
+          "y": 1,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "DeepSeek harness",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": 0,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "DeepSeek harness"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#646a73",
+            "border_color_type": 0,
+            "theme_border_color_code": 10,
+            "border_style": "solid",
+            "fill_opacity": 20,
+            "fill_color": "#9989e8",
+            "fill_color_type": 1
+          },
+          "mind_map_node": {
+            "type": "mind_map_round_rect",
+            "parent_id": "z001:1",
+            "layout_position": "right",
+            "z_index": 1,
+            "children": [
+              "z001:6",
+              "z001:7",
+              "z001:8",
+              "z001:9",
+              "z001:10"
+            ]
+          },
+          "mind_map": {
+            "parent_id": "z001:1"
+          }
+        },
+        {
+          "id": "z001:6",
+          "type": "mind_map",
+          "x": 0,
+          "y": 0,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "核心组成·LLM推理加Harness",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "核心组成·LLM推理加Harness"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#9989e8",
+            "border_color_type": 1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "mind_map_node": {
+            "type": "mind_map_text",
+            "parent_id": "z001:5",
+            "z_index": 0,
+            "children": []
+          },
+          "mind_map": {
+            "parent_id": "z001:5"
+          }
+        },
+        {
+          "id": "z001:7",
+          "type": "mind_map",
+          "x": 1,
+          "y": 1,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "封装好的·Claude Code Hermes",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "封装好的·Claude Code Hermes"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#9989e8",
+            "border_color_type": 1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "mind_map_node": {
+            "type": "mind_map_text",
+            "parent_id": "z001:5",
+            "z_index": 1,
+            "children": []
+          },
+          "mind_map": {
+            "parent_id": "z001:5"
+          }
+        },
+        {
+          "id": "z001:8",
+          "type": "mind_map",
+          "x": 2,
+          "y": 2,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "热定制·DeepSeek harness cordis",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "热定制·DeepSeek harness cordis"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#9989e8",
+            "border_color_type": 1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "mind_map_node": {
+            "type": "mind_map_text",
+            "parent_id": "z001:5",
+            "z_index": 2,
+            "children": []
+          },
+          "mind_map": {
+            "parent_id": "z001:5"
+          }
+        },
+        {
+          "id": "z001:9",
+          "type": "mind_map",
+          "x": 3,
+          "y": 3,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "用与构建·理解业务到创造模式",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "用与构建·理解业务到创造模式"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#9989e8",
+            "border_color_type": 1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "mind_map_node": {
+            "type": "mind_map_text",
+            "parent_id": "z001:5",
+            "z_index": 3,
+            "children": []
+          },
+          "mind_map": {
+            "parent_id": "z001:5"
+          }
+        },
+        {
+          "id": "z001:10",
+          "type": "mind_map",
+          "x": 4,
+          "y": 4,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "建议自建VPS更稳定",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "建议自建VPS更稳定"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#9989e8",
+            "border_color_type": 1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "mind_map_node": {
+            "type": "mind_map_text",
+            "parent_id": "z001:5",
+            "z_index": 4,
+            "children": []
+          },
+          "mind_map": {
+            "parent_id": "z001:5"
+          }
+        },
+        {
+          "id": "z001:11",
+          "type": "mind_map",
+          "x": 2,
+          "y": 2,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "产品作业汇报·三组 AI销售复盘助手",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": 0,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "产品作业汇报·三组 AI销售复盘助手"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#646a73",
+            "border_color_type": 0,
+            "theme_border_color_code": 10,
+            "border_style": "solid",
+            "fill_opacity": 20,
+            "fill_color": "#4dc1af",
+            "fill_color_type": 1
+          },
+          "mind_map_node": {
+            "type": "mind_map_round_rect",
+            "parent_id": "z001:1",
+            "layout_position": "right",
+            "z_index": 2,
+            "children": [
+              "z001:12",
+              "z001:13",
+              "z001:14",
+              "z001:15",
+              "z001:16"
+            ]
+          },
+          "mind_map": {
+            "parent_id": "z001:1"
+          }
+        },
+        {
+          "id": "z001:12",
+          "type": "mind_map",
+          "x": 0,
+          "y": 0,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "胶布提问·竞品分析目的与优势",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "胶布提问·竞品分析目的与优势"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#4dc1af",
+            "border_color_type": 1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "mind_map_node": {
+            "type": "mind_map_text",
+            "parent_id": "z001:11",
+            "z_index": 0,
+            "children": []
+          },
+          "mind_map": {
+            "parent_id": "z001:11"
+          }
+        },
+        {
+          "id": "z001:13",
+          "type": "mind_map",
+          "x": 1,
+          "y": 1,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "北极星指标不明确",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "北极星指标不明确"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#4dc1af",
+            "border_color_type": 1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "mind_map_node": {
+            "type": "mind_map_text",
+            "parent_id": "z001:11",
+            "z_index": 1,
+            "children": []
+          },
+          "mind_map": {
+            "parent_id": "z001:11"
+          }
+        },
+        {
+          "id": "z001:14",
+          "type": "mind_map",
+          "x": 2,
+          "y": 2,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "差异化与价格战的前提",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "差异化与价格战的前提"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#4dc1af",
+            "border_color_type": 1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "mind_map_node": {
+            "type": "mind_map_text",
+            "parent_id": "z001:11",
+            "z_index": 2,
+            "children": []
+          },
+          "mind_map": {
+            "parent_id": "z001:11"
+          }
+        },
+        {
+          "id": "z001:15",
+          "type": "mind_map",
+          "x": 3,
+          "y": 3,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "原型图流程图要与PRD对应",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "原型图流程图要与PRD对应"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#4dc1af",
+            "border_color_type": 1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "mind_map_node": {
+            "type": "mind_map_text",
+            "parent_id": "z001:11",
+            "z_index": 3,
+            "children": []
+          },
+          "mind_map": {
+            "parent_id": "z001:11"
+          }
+        },
+        {
+          "id": "z001:16",
+          "type": "mind_map",
+          "x": 4,
+          "y": 4,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "路演不要用真实数据",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "路演不要用真实数据"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#4dc1af",
+            "border_color_type": 1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "mind_map_node": {
+            "type": "mind_map_text",
+            "parent_id": "z001:11",
+            "z_index": 4,
+            "children": []
+          },
+          "mind_map": {
+            "parent_id": "z001:11"
+          }
+        },
+        {
+          "id": "z001:17",
+          "type": "mind_map",
+          "x": 3,
+          "y": 3,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "一组 GC画布",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": 0,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "一组 GC画布"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#646a73",
+            "border_color_type": 0,
+            "theme_border_color_code": 10,
+            "border_style": "solid",
+            "fill_opacity": 20,
+            "fill_color": "#67bcf0",
+            "fill_color_type": 1
+          },
+          "mind_map_node": {
+            "type": "mind_map_round_rect",
+            "parent_id": "z001:1",
+            "layout_position": "right",
+            "z_index": 3,
+            "children": [
+              "z001:18",
+              "z001:19",
+              "z001:20",
+              "z001:21",
+              "z001:22"
+            ]
+          },
+          "mind_map": {
+            "parent_id": "z001:1"
+          }
+        },
+        {
+          "id": "z001:18",
+          "type": "mind_map",
+          "x": 0,
+          "y": 0,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "面向AIGC创作与企业营销",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "面向AIGC创作与企业营销"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#67bcf0",
+            "border_color_type": 1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "mind_map_node": {
+            "type": "mind_map_text",
+            "parent_id": "z001:17",
+            "z_index": 0,
+            "children": []
+          },
+          "mind_map": {
+            "parent_id": "z001:17"
+          }
+        },
+        {
+          "id": "z001:19",
+          "type": "mind_map",
+          "x": 1,
+          "y": 1,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "我为什么要用你的产品",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "我为什么要用你的产品"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#67bcf0",
+            "border_color_type": 1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "mind_map_node": {
+            "type": "mind_map_text",
+            "parent_id": "z001:17",
+            "z_index": 1,
+            "children": []
+          },
+          "mind_map": {
+            "parent_id": "z001:17"
+          }
+        },
+        {
+          "id": "z001:20",
+          "type": "mind_map",
+          "x": 2,
+          "y": 2,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "项目冷启动与用户从哪来",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "项目冷启动与用户从哪来"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#67bcf0",
+            "border_color_type": 1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "mind_map_node": {
+            "type": "mind_map_text",
+            "parent_id": "z001:17",
+            "z_index": 2,
+            "children": []
+          },
+          "mind_map": {
+            "parent_id": "z001:17"
+          }
+        },
+        {
+          "id": "z001:21",
+          "type": "mind_map",
+          "x": 3,
+          "y": 3,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "越用越懂在策略上没体现",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "越用越懂在策略上没体现"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#67bcf0",
+            "border_color_type": 1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "mind_map_node": {
+            "type": "mind_map_text",
+            "parent_id": "z001:17",
+            "z_index": 3,
+            "children": []
+          },
+          "mind_map": {
+            "parent_id": "z001:17"
+          }
+        },
+        {
+          "id": "z001:22",
+          "type": "mind_map",
+          "x": 4,
+          "y": 4,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "行动建议要从竞品分析得出",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "行动建议要从竞品分析得出"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#67bcf0",
+            "border_color_type": 1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "mind_map_node": {
+            "type": "mind_map_text",
+            "parent_id": "z001:17",
+            "z_index": 4,
+            "children": []
+          },
+          "mind_map": {
+            "parent_id": "z001:17"
+          }
+        },
+        {
+          "id": "z001:23",
+          "type": "mind_map",
+          "x": 4,
+          "y": 4,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "二组 K12学情雷达",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": 0,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "二组 K12学情雷达"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#646a73",
+            "border_color_type": 0,
+            "theme_border_color_code": 10,
+            "border_style": "solid",
+            "fill_opacity": 20,
+            "fill_color": "#9989e8",
+            "fill_color_type": 1
+          },
+          "mind_map_node": {
+            "type": "mind_map_round_rect",
+            "parent_id": "z001:1",
+            "layout_position": "right",
+            "z_index": 4,
+            "children": [
+              "z001:24",
+              "z001:25",
+              "z001:26",
+              "z001:27"
+            ]
+          },
+          "mind_map": {
+            "parent_id": "z001:1"
+          }
+        },
+        {
+          "id": "z001:24",
+          "type": "mind_map",
+          "x": 0,
+          "y": 0,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "跑题·企业赋能做成企业考核",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "跑题·企业赋能做成企业考核"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#9989e8",
+            "border_color_type": 1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "mind_map_node": {
+            "type": "mind_map_text",
+            "parent_id": "z001:23",
+            "z_index": 0,
+            "children": []
+          },
+          "mind_map": {
+            "parent_id": "z001:23"
+          }
+        },
+        {
+          "id": "z001:25",
+          "type": "mind_map",
+          "x": 1,
+          "y": 1,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "原型图一页画2到3个页面",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "原型图一页画2到3个页面"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#9989e8",
+            "border_color_type": 1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "mind_map_node": {
+            "type": "mind_map_text",
+            "parent_id": "z001:23",
+            "z_index": 1,
+            "children": []
+          },
+          "mind_map": {
+            "parent_id": "z001:23"
+          }
+        },
+        {
+          "id": "z001:26",
+          "type": "mind_map",
+          "x": 2,
+          "y": 2,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "前面调研的结论没用上",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "前面调研的结论没用上"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#9989e8",
+            "border_color_type": 1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "mind_map_node": {
+            "type": "mind_map_text",
+            "parent_id": "z001:23",
+            "z_index": 2,
+            "children": []
+          },
+          "mind_map": {
+            "parent_id": "z001:23"
+          }
+        },
+        {
+          "id": "z001:27",
+          "type": "mind_map",
+          "x": 3,
+          "y": 3,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "交互逻辑要用场景带入",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "交互逻辑要用场景带入"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#9989e8",
+            "border_color_type": 1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "mind_map_node": {
+            "type": "mind_map_text",
+            "parent_id": "z001:23",
+            "z_index": 3,
+            "children": []
+          },
+          "mind_map": {
+            "parent_id": "z001:23"
+          }
+        },
+        {
+          "id": "z001:28",
+          "type": "mind_map",
+          "x": 5,
+          "y": 5,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "四组 外贸邮件处理助手",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": 0,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "四组 外贸邮件处理助手"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#646a73",
+            "border_color_type": 0,
+            "theme_border_color_code": 10,
+            "border_style": "solid",
+            "fill_opacity": 20,
+            "fill_color": "#4dc1af",
+            "fill_color_type": 1
+          },
+          "mind_map_node": {
+            "type": "mind_map_round_rect",
+            "parent_id": "z001:1",
+            "layout_position": "right",
+            "z_index": 5,
+            "children": [
+              "z001:29",
+              "z001:30",
+              "z001:31"
+            ]
+          },
+          "mind_map": {
+            "parent_id": "z001:1"
+          }
+        },
+        {
+          "id": "z001:29",
+          "type": "mind_map",
+          "x": 0,
+          "y": 0,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "不一定只有邮箱渠道",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "不一定只有邮箱渠道"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#4dc1af",
+            "border_color_type": 1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "mind_map_node": {
+            "type": "mind_map_text",
+            "parent_id": "z001:28",
+            "z_index": 0,
+            "children": []
+          },
+          "mind_map": {
+            "parent_id": "z001:28"
+          }
+        },
+        {
+          "id": "z001:30",
+          "type": "mind_map",
+          "x": 1,
+          "y": 1,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "联系平台与下单平台的断点",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "联系平台与下单平台的断点"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#4dc1af",
+            "border_color_type": 1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "mind_map_node": {
+            "type": "mind_map_text",
+            "parent_id": "z001:28",
+            "z_index": 1,
+            "children": []
+          },
+          "mind_map": {
+            "parent_id": "z001:28"
+          }
+        },
+        {
+          "id": "z001:31",
+          "type": "mind_map",
+          "x": 2,
+          "y": 2,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "优先级·P0下单",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "优先级·P0下单"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#4dc1af",
+            "border_color_type": 1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "mind_map_node": {
+            "type": "mind_map_text",
+            "parent_id": "z001:28",
+            "z_index": 2,
+            "children": []
+          },
+          "mind_map": {
+            "parent_id": "z001:28"
+          }
+        },
+        {
+          "id": "z001:32",
+          "type": "mind_map",
+          "x": 6,
+          "y": 6,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "案例 记忆卡 Yoooclaw",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": 0,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "案例 记忆卡 Yoooclaw"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#646a73",
+            "border_color_type": 0,
+            "theme_border_color_code": 10,
+            "border_style": "solid",
+            "fill_opacity": 20,
+            "fill_color": "#67bcf0",
+            "fill_color_type": 1
+          },
+          "mind_map_node": {
+            "type": "mind_map_round_rect",
+            "parent_id": "z001:1",
+            "layout_position": "right",
+            "z_index": 6,
+            "children": [
+              "z001:33"
+            ]
+          },
+          "mind_map": {
+            "parent_id": "z001:1"
+          }
+        },
+        {
+          "id": "z001:33",
+          "type": "mind_map",
+          "x": 0,
+          "y": 0,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "录音 消息劫持 agent控制",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "录音 消息劫持 agent控制"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#67bcf0",
+            "border_color_type": 1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "mind_map_node": {
+            "type": "mind_map_text",
+            "parent_id": "z001:32",
+            "z_index": 0,
+            "children": []
+          },
+          "mind_map": {
+            "parent_id": "z001:32"
+          }
+        },
+        {
+          "id": "z001:34",
+          "type": "mind_map",
+          "x": 7,
+          "y": 7,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "接下来的产品迭代思路",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": 0,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "接下来的产品迭代思路"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#646a73",
+            "border_color_type": 0,
+            "theme_border_color_code": 10,
+            "border_style": "solid",
+            "fill_opacity": 20,
+            "fill_color": "#9989e8",
+            "fill_color_type": 1
+          },
+          "mind_map_node": {
+            "type": "mind_map_round_rect",
+            "parent_id": "z001:1",
+            "layout_position": "right",
+            "z_index": 7,
+            "children": [
+              "z001:35",
+              "z001:36",
+              "z001:37",
+              "z001:38"
+            ]
+          },
+          "mind_map": {
+            "parent_id": "z001:1"
+          }
+        },
+        {
+          "id": "z001:35",
+          "type": "mind_map",
+          "x": 0,
+          "y": 0,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "场景具象与企业信息导入",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "场景具象与企业信息导入"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#9989e8",
+            "border_color_type": 1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "mind_map_node": {
+            "type": "mind_map_text",
+            "parent_id": "z001:34",
+            "z_index": 0,
+            "children": []
+          },
+          "mind_map": {
+            "parent_id": "z001:34"
+          }
+        },
+        {
+          "id": "z001:36",
+          "type": "mind_map",
+          "x": 1,
+          "y": 1,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "三组·流程加功能点到PRD",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "三组·流程加功能点到PRD"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#9989e8",
+            "border_color_type": 1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "mind_map_node": {
+            "type": "mind_map_text",
+            "parent_id": "z001:34",
+            "z_index": 1,
+            "children": []
+          },
+          "mind_map": {
+            "parent_id": "z001:34"
+          }
+        },
+        {
+          "id": "z001:37",
+          "type": "mind_map",
+          "x": 2,
+          "y": 2,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "二组·策略枚举与加工规则",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "二组·策略枚举与加工规则"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#9989e8",
+            "border_color_type": 1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "mind_map_node": {
+            "type": "mind_map_text",
+            "parent_id": "z001:34",
+            "z_index": 2,
+            "children": []
+          },
+          "mind_map": {
+            "parent_id": "z001:34"
+          }
+        },
+        {
+          "id": "z001:38",
+          "type": "mind_map",
+          "x": 3,
+          "y": 3,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "一组四组·写数据规则",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "一组四组·写数据规则"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#9989e8",
+            "border_color_type": 1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "mind_map_node": {
+            "type": "mind_map_text",
+            "parent_id": "z001:34",
+            "z_index": 3,
+            "children": []
+          },
+          "mind_map": {
+            "parent_id": "z001:34"
+          }
+        }
+      ]
+    },
+    "metadata": {
+      "width": 0,
+      "height": 0,
+      "nodeCount": 38,
+      "connectorCount": 0
+    }
+  },
+  "error": ""
+}

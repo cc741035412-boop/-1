@@ -1,2 +1,5 @@
 .claude/
 .DS_Store
+
+# 敏感认证材料，不入库
+.lark-auth-qr.png

@@ -1,0 +1,5143 @@
+{
+  "code": 0,
+  "data": {
+    "to": "openapi",
+    "result": {
+      "nodes": [
+        {
+          "id": "z001:1",
+          "type": "mind_map",
+          "x": -1,
+          "y": -1,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "Day12 笔记",
+            "font_weight": "bold",
+            "font_size": 16,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#ffffff",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": 1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "Day12 笔记"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#000000",
+            "border_color_type": 0,
+            "theme_border_color_code": 1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color": "#1a1a1a",
+            "fill_color_type": 0,
+            "theme_fill_color_code": 7
+          },
+          "mind_map_root": {
+            "type": "mind_map_round_rect",
+            "layout": "left_right",
+            "line_style": "round_angle",
+            "up_children": [],
+            "down_children": [],
+            "left_children": [],
+            "right_children": [
+              "z001:2",
+              "z001:8",
+              "z001:54",
+              "z001:73"
+            ]
+          },
+          "mind_map": {
+            "parent_id": ""
+          }
+        },
+        {
+          "id": "z001:2",
+          "type": "mind_map",
+          "x": 0,
+          "y": 0,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "18号分享 Palantir",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": 0,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "18号分享 Palantir"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#646a73",
+            "border_color_type": 0,
+            "theme_border_color_code": 10,
+            "border_style": "solid",
+            "fill_opacity": 20,
+            "fill_color": "#67bcf0",
+            "fill_color_type": 1
+          },
+          "mind_map_node": {
+            "type": "mind_map_round_rect",
+            "parent_id": "z001:1",
+            "layout_position": "right",
+            "z_index": 0,
+            "children": [
+              "z001:3"
+            ]
+          },
+          "mind_map": {
+            "parent_id": "z001:1"
+          }
+        },
+        {
+          "id": "z001:3",
+          "type": "mind_map",
+          "x": 0,
+          "y": 0,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "本体论 Ontology",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "本体论 Ontology"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#67bcf0",
+            "border_color_type": 1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "mind_map_node": {
+            "type": "mind_map_text",
+            "parent_id": "z001:2",
+            "z_index": 0,
+            "children": [
+              "z001:4",
+              "z001:5",
+              "z001:6",
+              "z001:7"
+            ]
+          },
+          "mind_map": {
+            "parent_id": "z001:2"
+          }
+        },
+        {
+          "id": "z001:4",
+          "type": "mind_map",
+          "x": 0,
+          "y": 0,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "对象/属性/关系/动作",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "对象/属性/关系/动作"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#67bcf0",
+            "border_color_type": 1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "mind_map_node": {
+            "type": "mind_map_text",
+            "parent_id": "z001:3",
+            "z_index": 0,
+            "children": []
+          },
+          "mind_map": {
+            "parent_id": "z001:3"
+          }
+        },
+        {
+          "id": "z001:5",
+          "type": "mind_map",
+          "x": 1,
+          "y": 1,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "价值：业务语义层",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "价值：业务语义层"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#67bcf0",
+            "border_color_type": 1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "mind_map_node": {
+            "type": "mind_map_text",
+            "parent_id": "z001:3",
+            "z_index": 1,
+            "children": []
+          },
+          "mind_map": {
+            "parent_id": "z001:3"
+          }
+        },
+        {
+          "id": "z001:6",
+          "type": "mind_map",
+          "x": 2,
+          "y": 2,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "沿关系查，不写跨库SQL",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "沿关系查，不写跨库SQL"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#67bcf0",
+            "border_color_type": 1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "mind_map_node": {
+            "type": "mind_map_text",
+            "parent_id": "z001:3",
+            "z_index": 2,
+            "children": []
+          },
+          "mind_map": {
+            "parent_id": "z001:3"
+          }
+        },
+        {
+          "id": "z001:7",
+          "type": "mind_map",
+          "x": 3,
+          "y": 3,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "AI Agent 调企业数据的前提",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "AI Agent 调企业数据的前提"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#67bcf0",
+            "border_color_type": 1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "mind_map_node": {
+            "type": "mind_map_text",
+            "parent_id": "z001:3",
+            "z_index": 3,
+            "children": []
+          },
+          "mind_map": {
+            "parent_id": "z001:3"
+          }
+        },
+        {
+          "id": "z001:8",
+          "type": "mind_map",
+          "x": 1,
+          "y": 1,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "Vibe coding 架构",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": 0,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "Vibe coding 架构"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#646a73",
+            "border_color_type": 0,
+            "theme_border_color_code": 10,
+            "border_style": "solid",
+            "fill_opacity": 20,
+            "fill_color": "#9989e8",
+            "fill_color_type": 1
+          },
+          "mind_map_node": {
+            "type": "mind_map_round_rect",
+            "parent_id": "z001:1",
+            "layout_position": "right",
+            "z_index": 1,
+            "children": [
+              "z001:9",
+              "z001:12",
+              "z001:18",
+              "z001:21",
+              "z001:29",
+              "z001:33",
+              "z001:52"
+            ]
+          },
+          "mind_map": {
+            "parent_id": "z001:1"
+          }
+        },
+        {
+          "id": "z001:9",
+          "type": "mind_map",
+          "x": 0,
+          "y": 0,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "定义：自然语言描述→AI生成迭代代码",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "定义：自然语言描述→AI生成迭代代码"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#9989e8",
+            "border_color_type": 1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "mind_map_node": {
+            "type": "mind_map_text",
+            "parent_id": "z001:8",
+            "z_index": 0,
+            "children": [
+              "z001:10",
+              "z001:11"
+            ]
+          },
+          "mind_map": {
+            "parent_id": "z001:8"
+          }
+        },
+        {
+          "id": "z001:10",
+          "type": "mind_map",
+          "x": 0,
+          "y": 0,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "人只提需求、验收效果",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "人只提需求、验收效果"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#9989e8",
+            "border_color_type": 1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "mind_map_node": {
+            "type": "mind_map_text",
+            "parent_id": "z001:9",
+            "z_index": 0,
+            "children": []
+          },
+          "mind_map": {
+            "parent_id": "z001:9"
+          }
+        },
+        {
+          "id": "z001:11",
+          "type": "mind_map",
+          "x": 1,
+          "y": 1,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "瓶颈：从会不会写→说不说得清",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "瓶颈：从会不会写→说不说得清"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#9989e8",
+            "border_color_type": 1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "mind_map_node": {
+            "type": "mind_map_text",
+            "parent_id": "z001:9",
+            "z_index": 1,
+            "children": []
+          },
+          "mind_map": {
+            "parent_id": "z001:9"
+          }
+        },
+        {
+          "id": "z001:12",
+          "type": "mind_map",
+          "x": 1,
+          "y": 1,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "工具谱系",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "工具谱系"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#9989e8",
+            "border_color_type": 1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "mind_map_node": {
+            "type": "mind_map_text",
+            "parent_id": "z001:8",
+            "z_index": 1,
+            "children": [
+              "z001:13",
+              "z001:14",
+              "z001:15",
+              "z001:16",
+              "z001:17"
+            ]
+          },
+          "mind_map": {
+            "parent_id": "z001:8"
+          }
+        },
+        {
+          "id": "z001:13",
+          "type": "mind_map",
+          "x": 0,
+          "y": 0,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "chat：ChatGPT / pi",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "chat：ChatGPT / pi"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#9989e8",
+            "border_color_type": 1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "mind_map_node": {
+            "type": "mind_map_text",
+            "parent_id": "z001:12",
+            "z_index": 0,
+            "children": []
+          },
+          "mind_map": {
+            "parent_id": "z001:12"
+          }
+        },
+        {
+          "id": "z001:14",
+          "type": "mind_map",
+          "x": 1,
+          "y": 1,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "agent harness：claude code",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "agent harness：claude code"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#9989e8",
+            "border_color_type": 1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "mind_map_node": {
+            "type": "mind_map_text",
+            "parent_id": "z001:12",
+            "z_index": 1,
+            "children": []
+          },
+          "mind_map": {
+            "parent_id": "z001:12"
+          }
+        },
+        {
+          "id": "z001:15",
+          "type": "mind_map",
+          "x": 2,
+          "y": 2,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "harness=智能体外壳/脚手架",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "harness=智能体外壳/脚手架"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#9989e8",
+            "border_color_type": 1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "mind_map_node": {
+            "type": "mind_map_text",
+            "parent_id": "z001:12",
+            "z_index": 2,
+            "children": []
+          },
+          "mind_map": {
+            "parent_id": "z001:12"
+          }
+        },
+        {
+          "id": "z001:16",
+          "type": "mind_map",
+          "x": 3,
+          "y": 3,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "部署：GitHub + Vercel",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "部署：GitHub + Vercel"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#9989e8",
+            "border_color_type": 1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "mind_map_node": {
+            "type": "mind_map_text",
+            "parent_id": "z001:12",
+            "z_index": 3,
+            "children": []
+          },
+          "mind_map": {
+            "parent_id": "z001:12"
+          }
+        },
+        {
+          "id": "z001:17",
+          "type": "mind_map",
+          "x": 4,
+          "y": 4,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "CI/CD 持续集成与交付",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "CI/CD 持续集成与交付"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#9989e8",
+            "border_color_type": 1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "mind_map_node": {
+            "type": "mind_map_text",
+            "parent_id": "z001:12",
+            "z_index": 4,
+            "children": []
+          },
+          "mind_map": {
+            "parent_id": "z001:12"
+          }
+        },
+        {
+          "id": "z001:18",
+          "type": "mind_map",
+          "x": 2,
+          "y": 2,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "互联网项目基本流程",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "互联网项目基本流程"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#9989e8",
+            "border_color_type": 1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "mind_map_node": {
+            "type": "mind_map_text",
+            "parent_id": "z001:8",
+            "z_index": 2,
+            "children": [
+              "z001:19",
+              "z001:20"
+            ]
+          },
+          "mind_map": {
+            "parent_id": "z001:8"
+          }
+        },
+        {
+          "id": "z001:19",
+          "type": "mind_map",
+          "x": 0,
+          "y": 0,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "启动：调研真实数据",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "启动：调研真实数据"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#9989e8",
+            "border_color_type": 1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "mind_map_node": {
+            "type": "mind_map_text",
+            "parent_id": "z001:18",
+            "z_index": 0,
+            "children": []
+          },
+          "mind_map": {
+            "parent_id": "z001:18"
+          }
+        },
+        {
+          "id": "z001:20",
+          "type": "mind_map",
+          "x": 1,
+          "y": 1,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "再拆需求真假",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "再拆需求真假"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#9989e8",
+            "border_color_type": 1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "mind_map_node": {
+            "type": "mind_map_text",
+            "parent_id": "z001:18",
+            "z_index": 1,
+            "children": []
+          },
+          "mind_map": {
+            "parent_id": "z001:18"
+          }
+        },
+        {
+          "id": "z001:21",
+          "type": "mind_map",
+          "x": 3,
+          "y": 3,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "提示词注意事项",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "提示词注意事项"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#9989e8",
+            "border_color_type": 1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "mind_map_node": {
+            "type": "mind_map_text",
+            "parent_id": "z001:8",
+            "z_index": 3,
+            "children": [
+              "z001:22",
+              "z001:23",
+              "z001:24",
+              "z001:25",
+              "z001:26",
+              "z001:27",
+              "z001:28"
+            ]
+          },
+          "mind_map": {
+            "parent_id": "z001:8"
+          }
+        },
+        {
+          "id": "z001:22",
+          "type": "mind_map",
+          "x": 0,
+          "y": 0,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "1 声明项目背景",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "1 声明项目背景"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#9989e8",
+            "border_color_type": 1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "mind_map_node": {
+            "type": "mind_map_text",
+            "parent_id": "z001:21",
+            "z_index": 0,
+            "children": []
+          },
+          "mind_map": {
+            "parent_id": "z001:21"
+          }
+        },
+        {
+          "id": "z001:23",
+          "type": "mind_map",
+          "x": 1,
+          "y": 1,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "2 基础功能",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "2 基础功能"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#9989e8",
+            "border_color_type": 1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "mind_map_node": {
+            "type": "mind_map_text",
+            "parent_id": "z001:21",
+            "z_index": 1,
+            "children": []
+          },
+          "mind_map": {
+            "parent_id": "z001:21"
+          }
+        },
+        {
+          "id": "z001:24",
+          "type": "mind_map",
+          "x": 2,
+          "y": 2,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "3 页面布局：控件名唯一、含层级",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "3 页面布局：控件名唯一、含层级"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#9989e8",
+            "border_color_type": 1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "mind_map_node": {
+            "type": "mind_map_text",
+            "parent_id": "z001:21",
+            "z_index": 2,
+            "children": []
+          },
+          "mind_map": {
+            "parent_id": "z001:21"
+          }
+        },
+        {
+          "id": "z001:25",
+          "type": "mind_map",
+          "x": 3,
+          "y": 3,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "4 用户流程：类似用户故事板",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "4 用户流程：类似用户故事板"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#9989e8",
+            "border_color_type": 1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "mind_map_node": {
+            "type": "mind_map_text",
+            "parent_id": "z001:21",
+            "z_index": 3,
+            "children": []
+          },
+          "mind_map": {
+            "parent_id": "z001:21"
+          }
+        },
+        {
+          "id": "z001:26",
+          "type": "mind_map",
+          "x": 4,
+          "y": 4,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "六要素：上下文/明确/目标/结构化/示例/迭代",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "六要素：上下文/明确/目标/结构化/示例/迭代"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#9989e8",
+            "border_color_type": 1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "mind_map_node": {
+            "type": "mind_map_text",
+            "parent_id": "z001:21",
+            "z_index": 4,
+            "children": []
+          },
+          "mind_map": {
+            "parent_id": "z001:21"
+          }
+        },
+        {
+          "id": "z001:27",
+          "type": "mind_map",
+          "x": 5,
+          "y": 5,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "提供示例=few-shot prompting",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "提供示例=few-shot prompting"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#9989e8",
+            "border_color_type": 1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "mind_map_node": {
+            "type": "mind_map_text",
+            "parent_id": "z001:21",
+            "z_index": 5,
+            "children": []
+          },
+          "mind_map": {
+            "parent_id": "z001:21"
+          }
+        },
+        {
+          "id": "z001:28",
+          "type": "mind_map",
+          "x": 6,
+          "y": 6,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "案例：呆呆chat",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "案例：呆呆chat"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#9989e8",
+            "border_color_type": 1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "mind_map_node": {
+            "type": "mind_map_text",
+            "parent_id": "z001:21",
+            "z_index": 6,
+            "children": []
+          },
+          "mind_map": {
+            "parent_id": "z001:21"
+          }
+        },
+        {
+          "id": "z001:29",
+          "type": "mind_map",
+          "x": 4,
+          "y": 4,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "环节1 一句话定义产品",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "环节1 一句话定义产品"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#9989e8",
+            "border_color_type": 1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "mind_map_node": {
+            "type": "mind_map_text",
+            "parent_id": "z001:8",
+            "z_index": 4,
+            "children": [
+              "z001:30",
+              "z001:31",
+              "z001:32"
+            ]
+          },
+          "mind_map": {
+            "parent_id": "z001:8"
+          }
+        },
+        {
+          "id": "z001:30",
+          "type": "mind_map",
+          "x": 0,
+          "y": 0,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "为目标用户提供核心价值，解决具体问题",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "为目标用户提供核心价值，解决具体问题"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#9989e8",
+            "border_color_type": 1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "mind_map_node": {
+            "type": "mind_map_text",
+            "parent_id": "z001:29",
+            "z_index": 0,
+            "children": []
+          },
+          "mind_map": {
+            "parent_id": "z001:29"
+          }
+        },
+        {
+          "id": "z001:31",
+          "type": "mind_map",
+          "x": 1,
+          "y": 1,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "既是对人的定位，也是给模型的第一段上下文",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "既是对人的定位，也是给模型的第一段上下文"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#9989e8",
+            "border_color_type": 1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "mind_map_node": {
+            "type": "mind_map_text",
+            "parent_id": "z001:29",
+            "z_index": 1,
+            "children": []
+          },
+          "mind_map": {
+            "parent_id": "z001:29"
+          }
+        },
+        {
+          "id": "z001:32",
+          "type": "mind_map",
+          "x": 2,
+          "y": 2,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "案例：销售录音→量化转化→行动建议",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "案例：销售录音→量化转化→行动建议"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#9989e8",
+            "border_color_type": 1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "mind_map_node": {
+            "type": "mind_map_text",
+            "parent_id": "z001:29",
+            "z_index": 2,
+            "children": []
+          },
+          "mind_map": {
+            "parent_id": "z001:29"
+          }
+        },
+        {
+          "id": "z001:33",
+          "type": "mind_map",
+          "x": 5,
+          "y": 5,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "环节2 产品要素拆解",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "环节2 产品要素拆解"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#9989e8",
+            "border_color_type": 1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "mind_map_node": {
+            "type": "mind_map_text",
+            "parent_id": "z001:8",
+            "z_index": 5,
+            "children": [
+              "z001:34",
+              "z001:35",
+              "z001:36",
+              "z001:39",
+              "z001:41",
+              "z001:45",
+              "z001:50"
+            ]
+          },
+          "mind_map": {
+            "parent_id": "z001:8"
+          }
+        },
+        {
+          "id": "z001:34",
+          "type": "mind_map",
+          "x": 0,
+          "y": 0,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "≈ 给AI读的轻量PRD：无歧义、可寻址",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "≈ 给AI读的轻量PRD：无歧义、可寻址"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#9989e8",
+            "border_color_type": 1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "mind_map_node": {
+            "type": "mind_map_text",
+            "parent_id": "z001:33",
+            "z_index": 0,
+            "children": []
+          },
+          "mind_map": {
+            "parent_id": "z001:33"
+          }
+        },
+        {
+          "id": "z001:35",
+          "type": "mind_map",
+          "x": 1,
+          "y": 1,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "2.1 项目背景：谁/啥问题/啥场景",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "2.1 项目背景：谁/啥问题/啥场景"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#9989e8",
+            "border_color_type": 1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "mind_map_node": {
+            "type": "mind_map_text",
+            "parent_id": "z001:33",
+            "z_index": 1,
+            "children": []
+          },
+          "mind_map": {
+            "parent_id": "z001:33"
+          }
+        },
+        {
+          "id": "z001:36",
+          "type": "mind_map",
+          "x": 2,
+          "y": 2,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "2.2 产品功能：砍到1个核心+4-6步骤",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "2.2 产品功能：砍到1个核心+4-6步骤"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#9989e8",
+            "border_color_type": 1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "mind_map_node": {
+            "type": "mind_map_text",
+            "parent_id": "z001:33",
+            "z_index": 2,
+            "children": [
+              "z001:37",
+              "z001:38"
+            ]
+          },
+          "mind_map": {
+            "parent_id": "z001:33"
+          }
+        },
+        {
+          "id": "z001:37",
+          "type": "mind_map",
+          "x": 0,
+          "y": 0,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "MVP：能否独立验证核心假设",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "MVP：能否独立验证核心假设"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#9989e8",
+            "border_color_type": 1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "mind_map_node": {
+            "type": "mind_map_text",
+            "parent_id": "z001:36",
+            "z_index": 0,
+            "children": []
+          },
+          "mind_map": {
+            "parent_id": "z001:36"
+          }
+        },
+        {
+          "id": "z001:38",
+          "type": "mind_map",
+          "x": 1,
+          "y": 1,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "案例：Instagram 只剩滤镜照片",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "案例：Instagram 只剩滤镜照片"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#9989e8",
+            "border_color_type": 1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "mind_map_node": {
+            "type": "mind_map_text",
+            "parent_id": "z001:36",
+            "z_index": 1,
+            "children": []
+          },
+          "mind_map": {
+            "parent_id": "z001:36"
+          }
+        },
+        {
+          "id": "z001:39",
+          "type": "mind_map",
+          "x": 3,
+          "y": 3,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "2.3 页面布局：只写控件名，上→下 左→右",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "2.3 页面布局：只写控件名，上→下 左→右"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#9989e8",
+            "border_color_type": 1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "mind_map_node": {
+            "type": "mind_map_text",
+            "parent_id": "z001:33",
+            "z_index": 3,
+            "children": [
+              "z001:40"
+            ]
+          },
+          "mind_map": {
+            "parent_id": "z001:33"
+          }
+        },
+        {
+          "id": "z001:40",
+          "type": "mind_map",
+          "x": 0,
+          "y": 0,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "唯一命名，含层级如 1.2 顶部导航-全局搜索框",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "唯一命名，含层级如 1.2 顶部导航-全局搜索框"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#9989e8",
+            "border_color_type": 1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "mind_map_node": {
+            "type": "mind_map_text",
+            "parent_id": "z001:39",
+            "z_index": 0,
+            "children": []
+          },
+          "mind_map": {
+            "parent_id": "z001:39"
+          }
+        },
+        {
+          "id": "z001:41",
+          "type": "mind_map",
+          "x": 4,
+          "y": 4,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "2.4 交互逻辑：怎么来、怎么点、到哪去",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "2.4 交互逻辑：怎么来、怎么点、到哪去"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#9989e8",
+            "border_color_type": 1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "mind_map_node": {
+            "type": "mind_map_text",
+            "parent_id": "z001:33",
+            "z_index": 4,
+            "children": [
+              "z001:42",
+              "z001:43",
+              "z001:44"
+            ]
+          },
+          "mind_map": {
+            "parent_id": "z001:33"
+          }
+        },
+        {
+          "id": "z001:42",
+          "type": "mind_map",
+          "x": 0,
+          "y": 0,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "用户故事：作为角色，我想要动作，以便价值",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "用户故事：作为角色，我想要动作，以便价值"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#9989e8",
+            "border_color_type": 1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "mind_map_node": {
+            "type": "mind_map_text",
+            "parent_id": "z001:41",
+            "z_index": 0,
+            "children": []
+          },
+          "mind_map": {
+            "parent_id": "z001:41"
+          }
+        },
+        {
+          "id": "z001:43",
+          "type": "mind_map",
+          "x": 1,
+          "y": 1,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "user flow + 草图 = storyboard",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "user flow + 草图 = storyboard"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#9989e8",
+            "border_color_type": 1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "mind_map_node": {
+            "type": "mind_map_text",
+            "parent_id": "z001:41",
+            "z_index": 1,
+            "children": []
+          },
+          "mind_map": {
+            "parent_id": "z001:41"
+          }
+        },
+        {
+          "id": "z001:44",
+          "type": "mind_map",
+          "x": 2,
+          "y": 2,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "前可预知/中有反馈/后可撤销（Nielsen）",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "前可预知/中有反馈/后可撤销（Nielsen）"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#9989e8",
+            "border_color_type": 1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "mind_map_node": {
+            "type": "mind_map_text",
+            "parent_id": "z001:41",
+            "z_index": 2,
+            "children": []
+          },
+          "mind_map": {
+            "parent_id": "z001:41"
+          }
+        },
+        {
+          "id": "z001:45",
+          "type": "mind_map",
+          "x": 5,
+          "y": 5,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "2.5 输出要求",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "2.5 输出要求"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#9989e8",
+            "border_color_type": 1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "mind_map_node": {
+            "type": "mind_map_text",
+            "parent_id": "z001:33",
+            "z_index": 5,
+            "children": [
+              "z001:46",
+              "z001:47",
+              "z001:48",
+              "z001:49"
+            ]
+          },
+          "mind_map": {
+            "parent_id": "z001:33"
+          }
+        },
+        {
+          "id": "z001:46",
+          "type": "mind_map",
+          "x": 0,
+          "y": 0,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "平台：web/小程序/iOS/Chrome插件",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "平台：web/小程序/iOS/Chrome插件"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#9989e8",
+            "border_color_type": 1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "mind_map_node": {
+            "type": "mind_map_text",
+            "parent_id": "z001:45",
+            "z_index": 0,
+            "children": []
+          },
+          "mind_map": {
+            "parent_id": "z001:45"
+          }
+        },
+        {
+          "id": "z001:47",
+          "type": "mind_map",
+          "x": 1,
+          "y": 1,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "轻量形态并列：小程序 / App Clip / 快应用",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "轻量形态并列：小程序 / App Clip / 快应用"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#9989e8",
+            "border_color_type": 1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "mind_map_node": {
+            "type": "mind_map_text",
+            "parent_id": "z001:45",
+            "z_index": 1,
+            "children": []
+          },
+          "mind_map": {
+            "parent_id": "z001:45"
+          }
+        },
+        {
+          "id": "z001:48",
+          "type": "mind_map",
+          "x": 2,
+          "y": 2,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "技术约束：先简单框架，再研究风格",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "技术约束：先简单框架，再研究风格"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#9989e8",
+            "border_color_type": 1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "mind_map_node": {
+            "type": "mind_map_text",
+            "parent_id": "z001:45",
+            "z_index": 2,
+            "children": []
+          },
+          "mind_map": {
+            "parent_id": "z001:45"
+          }
+        },
+        {
+          "id": "z001:49",
+          "type": "mind_map",
+          "x": 3,
+          "y": 3,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "输出格式：README",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "输出格式：README"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#9989e8",
+            "border_color_type": 1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "mind_map_node": {
+            "type": "mind_map_text",
+            "parent_id": "z001:45",
+            "z_index": 3,
+            "children": []
+          },
+          "mind_map": {
+            "parent_id": "z001:45"
+          }
+        },
+        {
+          "id": "z001:50",
+          "type": "mind_map",
+          "x": 6,
+          "y": 6,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "2.6 AI配置：Endpoint URL / API Key / Model ID",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "2.6 AI配置：Endpoint URL / API Key / Model ID"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#9989e8",
+            "border_color_type": 1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "mind_map_node": {
+            "type": "mind_map_text",
+            "parent_id": "z001:33",
+            "z_index": 6,
+            "children": [
+              "z001:51"
+            ]
+          },
+          "mind_map": {
+            "parent_id": "z001:33"
+          }
+        },
+        {
+          "id": "z001:51",
+          "type": "mind_map",
+          "x": 0,
+          "y": 0,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "API Key 等同密码，放服务端环境变量",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "API Key 等同密码，放服务端环境变量"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#9989e8",
+            "border_color_type": 1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "mind_map_node": {
+            "type": "mind_map_text",
+            "parent_id": "z001:50",
+            "z_index": 0,
+            "children": []
+          },
+          "mind_map": {
+            "parent_id": "z001:50"
+          }
+        },
+        {
+          "id": "z001:52",
+          "type": "mind_map",
+          "x": 6,
+          "y": 6,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "环节3 发布产品",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "环节3 发布产品"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#9989e8",
+            "border_color_type": 1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "mind_map_node": {
+            "type": "mind_map_text",
+            "parent_id": "z001:8",
+            "z_index": 6,
+            "children": [
+              "z001:53"
+            ]
+          },
+          "mind_map": {
+            "parent_id": "z001:8"
+          }
+        },
+        {
+          "id": "z001:53",
+          "type": "mind_map",
+          "x": 0,
+          "y": 0,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "待补：GitHub 推送 → Vercel 自动部署",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "待补：GitHub 推送 → Vercel 自动部署"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#9989e8",
+            "border_color_type": 1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "mind_map_node": {
+            "type": "mind_map_text",
+            "parent_id": "z001:52",
+            "z_index": 0,
+            "children": []
+          },
+          "mind_map": {
+            "parent_id": "z001:52"
+          }
+        },
+        {
+          "id": "z001:54",
+          "type": "mind_map",
+          "x": 2,
+          "y": 2,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "19号分享 嵌入式系统",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": 0,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "19号分享 嵌入式系统"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#646a73",
+            "border_color_type": 0,
+            "theme_border_color_code": 10,
+            "border_style": "solid",
+            "fill_opacity": 20,
+            "fill_color": "#4dc1af",
+            "fill_color_type": 1
+          },
+          "mind_map_node": {
+            "type": "mind_map_round_rect",
+            "parent_id": "z001:1",
+            "layout_position": "right",
+            "z_index": 2,
+            "children": [
+              "z001:55",
+              "z001:56",
+              "z001:57",
+              "z001:58",
+              "z001:62",
+              "z001:67",
+              "z001:70"
+            ]
+          },
+          "mind_map": {
+            "parent_id": "z001:1"
+          }
+        },
+        {
+          "id": "z001:55",
+          "type": "mind_map",
+          "x": 0,
+          "y": 0,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "Codex micro（名称待核实）",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "Codex micro（名称待核实）"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#4dc1af",
+            "border_color_type": 1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "mind_map_node": {
+            "type": "mind_map_text",
+            "parent_id": "z001:54",
+            "z_index": 0,
+            "children": []
+          },
+          "mind_map": {
+            "parent_id": "z001:54"
+          }
+        },
+        {
+          "id": "z001:56",
+          "type": "mind_map",
+          "x": 1,
+          "y": 1,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "定义：固定场景垂直问题的专用计算系统",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "定义：固定场景垂直问题的专用计算系统"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#4dc1af",
+            "border_color_type": 1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "mind_map_node": {
+            "type": "mind_map_text",
+            "parent_id": "z001:54",
+            "z_index": 1,
+            "children": []
+          },
+          "mind_map": {
+            "parent_id": "z001:54"
+          }
+        },
+        {
+          "id": "z001:57",
+          "type": "mind_map",
+          "x": 2,
+          "y": 2,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "三大特征：专用性/资源受限/实时性",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "三大特征：专用性/资源受限/实时性"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#4dc1af",
+            "border_color_type": 1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "mind_map_node": {
+            "type": "mind_map_text",
+            "parent_id": "z001:54",
+            "z_index": 2,
+            "children": []
+          },
+          "mind_map": {
+            "parent_id": "z001:54"
+          }
+        },
+        {
+          "id": "z001:58",
+          "type": "mind_map",
+          "x": 3,
+          "y": 3,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "算力单位",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "算力单位"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#4dc1af",
+            "border_color_type": 1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "mind_map_node": {
+            "type": "mind_map_text",
+            "parent_id": "z001:54",
+            "z_index": 3,
+            "children": [
+              "z001:59",
+              "z001:60",
+              "z001:61"
+            ]
+          },
+          "mind_map": {
+            "parent_id": "z001:54"
+          }
+        },
+        {
+          "id": "z001:59",
+          "type": "mind_map",
+          "x": 0,
+          "y": 0,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "TOPS：每秒万亿次运算，常指INT8",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "TOPS：每秒万亿次运算，常指INT8"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#4dc1af",
+            "border_color_type": 1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "mind_map_node": {
+            "type": "mind_map_text",
+            "parent_id": "z001:58",
+            "z_index": 0,
+            "children": []
+          },
+          "mind_map": {
+            "parent_id": "z001:58"
+          }
+        },
+        {
+          "id": "z001:60",
+          "type": "mind_map",
+          "x": 1,
+          "y": 1,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "TFLOPS：每秒万亿次浮点运算",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "TFLOPS：每秒万亿次浮点运算"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#4dc1af",
+            "border_color_type": 1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "mind_map_node": {
+            "type": "mind_map_text",
+            "parent_id": "z001:58",
+            "z_index": 1,
+            "children": []
+          },
+          "mind_map": {
+            "parent_id": "z001:58"
+          }
+        },
+        {
+          "id": "z001:61",
+          "type": "mind_map",
+          "x": 2,
+          "y": 2,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "量化：FP16→INT8/INT4，塞进端侧",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "量化：FP16→INT8/INT4，塞进端侧"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#4dc1af",
+            "border_color_type": 1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "mind_map_node": {
+            "type": "mind_map_text",
+            "parent_id": "z001:58",
+            "z_index": 2,
+            "children": []
+          },
+          "mind_map": {
+            "parent_id": "z001:58"
+          }
+        },
+        {
+          "id": "z001:62",
+          "type": "mind_map",
+          "x": 4,
+          "y": 4,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "计算机常识",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "计算机常识"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#4dc1af",
+            "border_color_type": 1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "mind_map_node": {
+            "type": "mind_map_text",
+            "parent_id": "z001:54",
+            "z_index": 4,
+            "children": [
+              "z001:63",
+              "z001:64",
+              "z001:65",
+              "z001:66"
+            ]
+          },
+          "mind_map": {
+            "parent_id": "z001:54"
+          }
+        },
+        {
+          "id": "z001:63",
+          "type": "mind_map",
+          "x": 0,
+          "y": 0,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "RAM=运行内存，断电清空",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "RAM=运行内存，断电清空"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#4dc1af",
+            "border_color_type": 1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "mind_map_node": {
+            "type": "mind_map_text",
+            "parent_id": "z001:62",
+            "z_index": 0,
+            "children": []
+          },
+          "mind_map": {
+            "parent_id": "z001:62"
+          }
+        },
+        {
+          "id": "z001:64",
+          "type": "mind_map",
+          "x": 1,
+          "y": 1,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "ROM/Flash=存储，断电保留",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "ROM/Flash=存储，断电保留"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#4dc1af",
+            "border_color_type": 1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "mind_map_node": {
+            "type": "mind_map_text",
+            "parent_id": "z001:62",
+            "z_index": 1,
+            "children": []
+          },
+          "mind_map": {
+            "parent_id": "z001:62"
+          }
+        },
+        {
+          "id": "z001:65",
+          "type": "mind_map",
+          "x": 2,
+          "y": 2,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "主频GHz：同架构下越高越快",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "主频GHz：同架构下越高越快"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#4dc1af",
+            "border_color_type": 1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "mind_map_node": {
+            "type": "mind_map_text",
+            "parent_id": "z001:62",
+            "z_index": 2,
+            "children": []
+          },
+          "mind_map": {
+            "parent_id": "z001:62"
+          }
+        },
+        {
+          "id": "z001:66",
+          "type": "mind_map",
+          "x": 3,
+          "y": 3,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "核心/线程：任务能并行才受益",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "核心/线程：任务能并行才受益"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#4dc1af",
+            "border_color_type": 1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "mind_map_node": {
+            "type": "mind_map_text",
+            "parent_id": "z001:62",
+            "z_index": 3,
+            "children": []
+          },
+          "mind_map": {
+            "parent_id": "z001:62"
+          }
+        },
+        {
+          "id": "z001:67",
+          "type": "mind_map",
+          "x": 5,
+          "y": 5,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "端侧推理 Edge AI",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "端侧推理 Edge AI"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#4dc1af",
+            "border_color_type": 1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "mind_map_node": {
+            "type": "mind_map_text",
+            "parent_id": "z001:54",
+            "z_index": 5,
+            "children": [
+              "z001:68",
+              "z001:69"
+            ]
+          },
+          "mind_map": {
+            "parent_id": "z001:54"
+          }
+        },
+        {
+          "id": "z001:68",
+          "type": "mind_map",
+          "x": 0,
+          "y": 0,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "低延迟/离线可用/数据不出设备",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "低延迟/离线可用/数据不出设备"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#4dc1af",
+            "border_color_type": 1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "mind_map_node": {
+            "type": "mind_map_text",
+            "parent_id": "z001:67",
+            "z_index": 0,
+            "children": []
+          },
+          "mind_map": {
+            "parent_id": "z001:67"
+          }
+        },
+        {
+          "id": "z001:69",
+          "type": "mind_map",
+          "x": 1,
+          "y": 1,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "案例：扫地机避障、AirPods降噪、门锁人脸",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "案例：扫地机避障、AirPods降噪、门锁人脸"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#4dc1af",
+            "border_color_type": 1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "mind_map_node": {
+            "type": "mind_map_text",
+            "parent_id": "z001:67",
+            "z_index": 1,
+            "children": []
+          },
+          "mind_map": {
+            "parent_id": "z001:67"
+          }
+        },
+        {
+          "id": "z001:70",
+          "type": "mind_map",
+          "x": 6,
+          "y": 6,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "避坑",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "避坑"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#4dc1af",
+            "border_color_type": 1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "mind_map_node": {
+            "type": "mind_map_text",
+            "parent_id": "z001:54",
+            "z_index": 6,
+            "children": [
+              "z001:71",
+              "z001:72"
+            ]
+          },
+          "mind_map": {
+            "parent_id": "z001:54"
+          }
+        },
+        {
+          "id": "z001:71",
+          "type": "mind_map",
+          "x": 0,
+          "y": 0,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "逻辑电平 3.3V vs 5V",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "逻辑电平 3.3V vs 5V"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#4dc1af",
+            "border_color_type": 1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "mind_map_node": {
+            "type": "mind_map_text",
+            "parent_id": "z001:70",
+            "z_index": 0,
+            "children": []
+          },
+          "mind_map": {
+            "parent_id": "z001:70"
+          }
+        },
+        {
+          "id": "z001:72",
+          "type": "mind_map",
+          "x": 1,
+          "y": 1,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "ESP32、树莓派GPIO为3.3V",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "ESP32、树莓派GPIO为3.3V"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#4dc1af",
+            "border_color_type": 1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "mind_map_node": {
+            "type": "mind_map_text",
+            "parent_id": "z001:70",
+            "z_index": 1,
+            "children": []
+          },
+          "mind_map": {
+            "parent_id": "z001:70"
+          }
+        },
+        {
+          "id": "z001:73",
+          "type": "mind_map",
+          "x": 3,
+          "y": 3,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "记忆力提升法",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": 0,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "记忆力提升法"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#646a73",
+            "border_color_type": 0,
+            "theme_border_color_code": 10,
+            "border_style": "solid",
+            "fill_opacity": 20,
+            "fill_color": "#67bcf0",
+            "fill_color_type": 1
+          },
+          "mind_map_node": {
+            "type": "mind_map_round_rect",
+            "parent_id": "z001:1",
+            "layout_position": "right",
+            "z_index": 3,
+            "children": [
+              "z001:74",
+              "z001:75",
+              "z001:76"
+            ]
+          },
+          "mind_map": {
+            "parent_id": "z001:1"
+          }
+        },
+        {
+          "id": "z001:74",
+          "type": "mind_map",
+          "x": 0,
+          "y": 0,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "笔记口述",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "笔记口述"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#67bcf0",
+            "border_color_type": 1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "mind_map_node": {
+            "type": "mind_map_text",
+            "parent_id": "z001:73",
+            "z_index": 0,
+            "children": []
+          },
+          "mind_map": {
+            "parent_id": "z001:73"
+          }
+        },
+        {
+          "id": "z001:75",
+          "type": "mind_map",
+          "x": 1,
+          "y": 1,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "周末作业",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "周末作业"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#67bcf0",
+            "border_color_type": 1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "mind_map_node": {
+            "type": "mind_map_text",
+            "parent_id": "z001:73",
+            "z_index": 1,
+            "children": []
+          },
+          "mind_map": {
+            "parent_id": "z001:73"
+          }
+        },
+        {
+          "id": "z001:76",
+          "type": "mind_map",
+          "x": 2,
+          "y": 2,
+          "width": 200,
+          "height": 30,
+          "text": {
+            "text": "师兄的输出——口播",
+            "font_weight": "regular",
+            "font_size": 14,
+            "horizontal_align": "center",
+            "vertical_align": "mid",
+            "line_through": false,
+            "underline": false,
+            "italic": false,
+            "angle": 0,
+            "text_color": "#1f2329",
+            "text_color_type": 0,
+            "text_background_color_type": 0,
+            "theme_text_color_code": -1,
+            "theme_text_background_color_code": -1,
+            "rich_text": {
+              "paragraphs": [
+                {
+                  "paragraph_type": 0,
+                  "elements": [
+                    {
+                      "element_type": 0,
+                      "text_element": {
+                        "text_style": {
+                          "italic": false,
+                          "underline": false,
+                          "line_through": false
+                        },
+                        "text": "师兄的输出——口播"
+                      }
+                    }
+                  ],
+                  "indent": 0,
+                  "list_begin_index": 0,
+                  "quote": false
+                }
+              ]
+            }
+          },
+          "style": {
+            "border_opacity": 100,
+            "border_width": "extra_narrow",
+            "border_color": "#67bcf0",
+            "border_color_type": 1,
+            "border_style": "solid",
+            "fill_opacity": 100,
+            "fill_color_type": 0,
+            "theme_fill_color_code": -1
+          },
+          "mind_map_node": {
+            "type": "mind_map_text",
+            "parent_id": "z001:73",
+            "z_index": 2,
+            "children": []
+          },
+          "mind_map": {
+            "parent_id": "z001:73"
+          }
+        }
+      ]
+    },
+    "metadata": {
+      "width": 0,
+      "height": 0,
+      "nodeCount": 76,
+      "connectorCount": 0
+    }
+  },
+  "error": ""
+}

@@ -1,0 +1,296 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "nodes": [
+      {
+        "angle": 0,
+        "height": 28.27199935913086,
+        "id": "z2:8",
+        "mind_map": {
+          "parent_id": "z2:7"
+        },
+        "mind_map_node": {
+          "children": [
+            "z1:11",
+            "z1:12"
+          ],
+          "collapsed": false,
+          "layout_position": "right",
+          "parent_id": "z2:7",
+          "type": "mind_map_text",
+          "z_index": 0
+        },
+        "style": {
+          "border_color": "#5178c6",
+          "border_color_type": 0,
+          "border_opacity": 100,
+          "border_style": "solid",
+          "border_width": "narrow",
+          "fill_color_type": 0,
+          "fill_opacity": 100,
+          "theme_border_color_code": -1,
+          "theme_fill_color_code": -1
+        },
+        "text": {
+          "angle": 0,
+          "font_size": 14,
+          "font_weight": "regular",
+          "horizontal_align": "left",
+          "italic": false,
+          "line_through": false,
+          "text": "05分享 seedance2.5",
+          "text_background_color_type": 0,
+          "text_color": "#1f2329",
+          "text_color_type": 0,
+          "theme_text_background_color_code": -1,
+          "theme_text_color_code": -1,
+          "underline": false,
+          "vertical_align": "mid"
+        },
+        "type": "mind_map",
+        "width": 143.84788513183594,
+        "x": 695.4879150390625,
+        "y": 506.86962890625,
+        "z_index": 1
+      },
+      {
+        "angle": 0,
+        "height": 28.27199935913086,
+        "id": "z1:11",
+        "mind_map": {
+          "parent_id": "z2:8"
+        },
+        "mind_map_node": {
+          "collapsed": false,
+          "parent_id": "z2:8",
+          "type": "mind_map_text",
+          "z_index": 0
+        },
+        "style": {
+          "border_color": "#5178c6",
+          "border_color_type": 0,
+          "border_opacity": 100,
+          "border_style": "solid",
+          "border_width": "narrow",
+          "fill_color_type": 0,
+          "fill_opacity": 100,
+          "theme_border_color_code": -1,
+          "theme_fill_color_code": -1
+        },
+        "text": {
+          "angle": 0,
+          "font_size": 14,
+          "font_weight": "regular",
+          "horizontal_align": "left",
+          "italic": false,
+          "line_through": false,
+          "text": "胶布：有限时间内要把控汇报节奏，提出问题的时候要有思考和解决方案",
+          "text_background_color_type": 0,
+          "text_color": "#1f2329",
+          "text_color_type": 0,
+          "theme_text_background_color_code": -1,
+          "theme_text_color_code": -1,
+          "underline": false,
+          "vertical_align": "mid"
+        },
+        "type": "mind_map",
+        "width": 464,
+        "x": 899.3358154296875,
+        "y": 488.733642578125,
+        "z_index": 4
+      },
+      {
+        "angle": 0,
+        "height": 28.27199935913086,
+        "id": "z1:12",
+        "mind_map": {
+          "parent_id": "z2:8"
+        },
+        "mind_map_node": {
+          "collapsed": false,
+          "parent_id": "z2:8",
+          "type": "mind_map_text",
+          "z_index": 1
+        },
+        "style": {
+          "border_color": "#5178c6",
+          "border_color_type": 0,
+          "border_opacity": 100,
+          "border_style": "solid",
+          "border_width": "narrow",
+          "fill_color_type": 0,
+          "fill_opacity": 100,
+          "theme_border_color_code": -1,
+          "theme_fill_color_code": -1
+        },
+        "text": {
+          "angle": 0,
+          "font_size": 14,
+          "font_weight": "regular",
+          "horizontal_align": "left",
+          "italic": false,
+          "line_through": false,
+          "text": "",
+          "text_background_color_type": 0,
+          "text_color": "#1f2329",
+          "text_color_type": 0,
+          "theme_text_background_color_code": -1,
+          "theme_text_color_code": -1,
+          "underline": false,
+          "vertical_align": "mid"
+        },
+        "type": "mind_map",
+        "width": 72,
+        "x": 899.3358154296875,
+        "y": 525.005615234375,
+        "z_index": 5
+      },
+      {
+        "angle": 0,
+        "height": 28.27199935913086,
+        "id": "z2:9",
+        "mind_map": {
+          "parent_id": "z2:7"
+        },
+        "mind_map_node": {
+          "collapsed": false,
+          "layout_position": "right",
+          "parent_id": "z2:7",
+          "type": "mind_map_text",
+          "z_index": 1
+        },
+        "style": {
+          "border_color": "#5178c6",
+          "border_color_type": 0,
+          "border_opacity": 100,
+          "border_style": "solid",
+          "border_width": "narrow",
+          "fill_color_type": 0,
+          "fill_opacity": 100,
+          "theme_border_color_code": -1,
+          "theme_fill_color_code": -1
+        },
+        "text": {
+          "angle": 0,
+          "font_size": 14,
+          "font_weight": "bold",
+          "horizontal_align": "left",
+          "italic": false,
+          "line_through": false,
+          "text": "做产品需要刻在脑子里的三要素：用户、场景、问题",
+          "text_background_color_type": 0,
+          "text_color": "#1f2329",
+          "text_color_type": 0,
+          "theme_text_background_color_code": -1,
+          "theme_text_color_code": -1,
+          "underline": false,
+          "vertical_align": "mid"
+        },
+        "type": "mind_map",
+        "width": 338,
+        "x": 695.4879150390625,
+        "y": 577.2776489257812,
+        "z_index": 2
+      },
+      {
+        "angle": 0,
+        "height": 28.27199935913086,
+        "id": "z2:10",
+        "mind_map": {
+          "parent_id": "z2:7"
+        },
+        "mind_map_node": {
+          "collapsed": false,
+          "layout_position": "right",
+          "parent_id": "z2:7",
+          "type": "mind_map_text",
+          "z_index": 2
+        },
+        "style": {
+          "border_color": "#5178c6",
+          "border_color_type": 0,
+          "border_opacity": 100,
+          "border_style": "solid",
+          "border_width": "narrow",
+          "fill_color_type": 0,
+          "fill_opacity": 100,
+          "theme_border_color_code": -1,
+          "theme_fill_color_code": -1
+        },
+        "text": {
+          "angle": 0,
+          "font_size": 14,
+          "font_weight": "bold",
+          "horizontal_align": "left",
+          "italic": false,
+          "line_through": false,
+          "text": "模型微调——数据标准\u0026模型评估",
+          "text_background_color_type": 0,
+          "text_color": "#1f2329",
+          "text_color_type": 0,
+          "theme_text_background_color_code": -1,
+          "theme_text_color_code": -1,
+          "underline": false,
+          "vertical_align": "mid"
+        },
+        "type": "mind_map",
+        "width": 218.17398071289062,
+        "x": 695.4879150390625,
+        "y": 629.5496215820312,
+        "z_index": 3
+      },
+      {
+        "angle": 0,
+        "height": 48,
+        "id": "z2:7",
+        "mind_map": {
+          "parent_id": ""
+        },
+        "mind_map_root": {
+          "layout": "left_right",
+          "line_style": "round_angle",
+          "right_children": [
+            "z2:8",
+            "z2:9",
+            "z2:10"
+          ],
+          "type": "mind_map_round_rect"
+        },
+        "style": {
+          "border_color": "#5178c6",
+          "border_color_type": 0,
+          "border_opacity": 100,
+          "border_style": "solid",
+          "border_width": "narrow",
+          "fill_color": "#5178c6",
+          "fill_color_type": 0,
+          "fill_opacity": 100,
+          "theme_border_color_code": -1,
+          "theme_fill_color_code": -1
+        },
+        "text": {
+          "angle": 0,
+          "font_size": 14,
+          "font_weight": "regular",
+          "horizontal_align": "center",
+          "italic": false,
+          "line_through": false,
+          "text": "DAY04 笔记",
+          "text_background_color_type": 0,
+          "text_color": "#ffffff",
+          "text_color_type": 0,
+          "theme_text_background_color_code": -1,
+          "theme_text_color_code": -1,
+          "underline": false,
+          "vertical_align": "mid"
+        },
+        "type": "mind_map",
+        "width": 111.86192321777344,
+        "x": 523.6259765625,
+        "y": 567.4136352539062,
+        "z_index": 0
+      }
+    ]
+  }
+}
