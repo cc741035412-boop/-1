@@ -303,9 +303,12 @@ button,input{font:inherit;color:inherit;background:none;border:none;outline:none
 }
 
 /* 关于我 */
-.about-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:clamp(32px,4vw,64px);align-items:stretch}
-.about-media{padding:0;border-radius:24px;overflow:hidden}
-.portrait{width:100%;height:100%;min-height:clamp(320px,32vw,520px);border:none;border-radius:24px;background:none}
+.about-grid{display:grid;grid-template-columns:minmax(220px,300px) minmax(0,1fr);gap:clamp(28px,4vw,56px);align-items:start}
+.about-media{width:100%;padding:0;border-radius:24px;overflow:hidden}
+.portrait{
+  display:block;width:100%;height:auto;min-height:0;aspect-ratio:4/5;
+  object-fit:cover;object-position:center;border:none;border-radius:24px;background:none;
+}
 .about-text{padding:clamp(28px,3vw,44px);border-radius:24px}
 .about-body p{font-family:var(--ui);font-size:15px;line-height:1.95;color:rgba(255,255,255,.64);margin-top:20px}
 .about-body p.tag{
@@ -424,12 +427,15 @@ button,input{font:inherit;color:inherit;background:none;border:none;outline:none
 }
 
 @media(max-width:900px){
-  .about-grid{grid-template-columns:1fr}
   .notes-grid{grid-template-columns:1fr}
   .note-card{min-height:0}
   .note-tag{margin-top:24px}
   .now-item{grid-template-columns:1fr;gap:10px}
   .footer-links{grid-template-columns:1fr 1fr;gap:32px 24px}
+}
+@media(max-width:640px){
+  .about-grid{grid-template-columns:1fr}
+  .about-media{max-width:280px;margin:0 auto}
 }
 </style>
 </head>
@@ -463,7 +469,7 @@ button,input{font:inherit;color:inherit;background:none;border:none;outline:none
         <a href="#now" class="nav-link">观察</a>
         <a href="#notes" class="nav-link">笔记</a>
         <a href="#contact" class="nav-link">联系</a>
-        <a href="#contact" class="btn-white">加我微信</a>
+        <a href="#contact" class="btn-white">联系我</a>
       </div>
 
       <button class="nav-burger liquid-glass" id="navBurger" aria-label="打开菜单" aria-expanded="false">
@@ -511,7 +517,7 @@ button,input{font:inherit;color:inherit;background:none;border:none;outline:none
   <a href="#now" class="m-link mobile-link">观察</a>
   <a href="#notes" class="m-link mobile-link">笔记</a>
   <a href="#contact" class="m-link mobile-link">联系</a>
-  <a href="#contact" class="btn-white m-cta mobile-link">加我微信</a>
+  <a href="#contact" class="btn-white m-cta mobile-link">联系我</a>
 </div>
 
 <!-- ============ 首屏以下 ============ -->
@@ -522,16 +528,16 @@ button,input{font:inherit;color:inherit;background:none;border:none;outline:none
     <section id="about" class="section">
       <div class="section-inner about-grid">
         <div class="about-media liquid-glass reveal">
-          <div class="placeholder portrait">
-            这里放一张本人照片<br>建议尺寸 800×1000px（竖版）<br>肖像照或工作场景照均可
-          </div>
+          <img class="portrait" src="assets/images/profile/cai-yanming-portrait.png" alt="蔡炎洺个人肖像照" loading="lazy">
         </div>
         <div class="about-text liquid-glass reveal">
           <p class="eyebrow">关于我</p>
-          <h2 class="section-title">为什么从2024年起，<br>我从<span class="italic"> 新人</span> 做起</h2>
+          <h2 class="section-title">从教研走向 AI 产品，<br>我重新学会<span class="italic"> 定义问题</span></h2>
           <div class="about-body">
-            <p class="tag">【内容占位 · 待替换】</p>
-            <p>这里写你的“转身故事”正文，建议300-500字。可以包含：2024年以来做产品的关键经历、是什么让你决定认真投入AI方向、你现在具体在做什么准备（学习、实践、思考）。目标是让读者明白——你的资历和现在的方向是连贯的，不是临时起意。</p>
+            <p class="tag">AI 产品经理 · 前幼儿园教研员</p>
+            <p>我以前在幼儿园做教研。那段经历让我习惯追问：一条判断依据什么，能不能被别人复用，出了偏差谁来负责。2024 年 2 月，我转到 AI 产品岗位，从用户访谈、竞品分析和 MVP 开始，把这套工作方法带进新的场景。</p>
+            <p>在「帮帮师记」项目里，我负责 0→1 的产品定义与 AI 能力设计。我们把教师留下的照片、录音和视频整理成可追溯、可审校的观察记录；AI 负责客观白描和候选指标推荐，教育判断仍由教师完成。100 条真实素材实测中，指标推荐采纳率为 60%，单条记录耗时从约 60 分钟降到 15 分钟。</p>
+            <p>我更关心 AI 在真实工作里能不能被校验，而不是它能写得多像人。现在我持续研究任务拆解、领域知识结构化、评测和反馈闭环，也在小红书「@路遥」连续更新了 170 天，把产品动态拆成可以带回工作里的判断。</p>
           </div>
         </div>
       </div>
@@ -541,16 +547,16 @@ button,input{font:inherit;color:inherit;background:none;border:none;outline:none
     <section id="now" class="section">
       <div class="section-inner">
         <p class="eyebrow">正在关注</p>
-        <h2 class="section-title">最近在想的几件事</h2>
-        <p class="section-hint">这个板块建议保持轻量、高频更新——几句话即可，用来证明你对这个方向的关注是持续的。</p>
+        <h2 class="section-title">最近在想的两个问题</h2>
+        <p class="section-hint">从当前的产品实践里抽出问题，再用真实数据和用户反馈修正答案。</p>
         <div class="now-list">
           <div class="now-item liquid-glass reveal">
-            <span class="now-date">【日期占位】</span>
-            <p class="now-text">【内容占位】写一句你最近在看的书 / 关注的产品动态 / 一个阶段性判断，一两句话即可，不需要展开。</p>
+            <span class="now-date">判断边界</span>
+            <p class="now-text">模型可以给建议，但不能悄悄替用户做判断。真正的产品设计，是把 AI 做什么、人确认什么、结果如何追溯写进流程里。</p>
           </div>
           <div class="now-item liquid-glass reveal">
-            <span class="now-date">【日期占位】</span>
-            <p class="now-text">【内容占位】可以放第二条动态，比如你对某个AI产品发布的简短观点。</p>
+            <span class="now-date">评测闭环</span>
+            <p class="now-text">一次命中率不是终点。用户的采纳、删除和改写，才是下一轮知识库、Prompt 与交互优化最有价值的反馈。</p>
           </div>
         </div>
       </div>
@@ -594,16 +600,15 @@ button,input{font:inherit;color:inherit;background:none;border:none;outline:none
 
         <div class="reveal">
           <h2 class="contact-statement">如果这些思考对你有<span class="pill">价值</span>，我们聊聊。</h2>
-          <p class="contact-copy">【邀请语占位】写一句让对方愿意主动加你的理由，比如你希望进一步交流的具体话题，或者你能为对方提供的价值。</p>
+          <p class="contact-copy">如果你也在做垂直场景的 AI 产品，或者正在处理模型边界、评测与人机协同问题，欢迎给我发邮件。具体问题比泛泛寒暄更容易聊出东西。</p>
         </div>
 
         <div class="contact-card liquid-glass reveal">
           <svg class="contact-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor" aria-hidden="true"><path d="M 4.688 136 C 68.373 136 120 187.627 120 251.312 C 120 252.883 119.967 254.445 119.905 256 L 0 256 L 0 136.096 C 1.555 136.034 3.117 136 4.688 136 Z M 251.312 136 C 252.883 136 254.445 136.034 256 136.096 L 256 256 L 136.095 256 C 136.032 254.438 136.001 252.875 136 251.312 C 136 187.627 187.627 136 251.312 136 Z M 119.905 0 C 119.967 1.555 120 3.117 120 4.688 C 120 68.373 68.373 120 4.687 120 C 3.117 120 1.555 119.967 0 119.905 L 0 0 Z M 256 119.905 C 254.445 119.967 252.883 120 251.312 120 C 187.627 120 136 68.373 136 4.687 C 136 3.117 136.033 1.555 136.095 0 L 256 0 Z"/></svg>
-          <h3 class="contact-title">加我微信</h3>
-          <p class="contact-sub">聊 AI 产品、聊判断、聊合作</p>
-          <div class="placeholder qr-placeholder">二维码<br>200×200px</div>
-          <p class="contact-lines">【微信号占位】<br>【邮箱占位】</p>
-          <a class="btn-white" href="#contact">扫码添加微信</a>
+          <h3 class="contact-title">给我发邮件</h3>
+          <p class="contact-sub">AI 产品 · 任务拆解 · 评测与人机协同</p>
+          <p class="contact-lines"><a href="mailto:741035412@qq.com">741035412@qq.com</a><br>小红书：@路遥</p>
+          <a class="btn-white" href="mailto:741035412@qq.com">写一封邮件</a>
         </div>
 
         <footer class="site-footer liquid-glass reveal">
@@ -613,7 +618,7 @@ button,input{font:inherit;color:inherit;background:none;border:none;outline:none
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor" aria-hidden="true"><path d="M 4.688 136 C 68.373 136 120 187.627 120 251.312 C 120 252.883 119.967 254.445 119.905 256 L 0 256 L 0 136.096 C 1.555 136.034 3.117 136 4.688 136 Z M 251.312 136 C 252.883 136 254.445 136.034 256 136.096 L 256 256 L 136.095 256 C 136.032 254.438 136.001 252.875 136 251.312 C 136 187.627 187.627 136 251.312 136 Z M 119.905 0 C 119.967 1.555 120 3.117 120 4.688 C 120 68.373 68.373 120 4.687 120 C 3.117 120 1.555 119.967 0 119.905 L 0 0 Z M 256 119.905 C 254.445 119.967 252.883 120 251.312 120 C 187.627 120 136 68.373 136 4.687 C 136 3.117 136.033 1.555 136.095 0 L 256 0 Z"/></svg>
                 <span>蔡炎洺</span>
               </div>
-              <p class="footer-tagline">【一句话简介占位】用产品思维拆解AI，把2024年以来沉淀出的判断，分享给感兴趣的人。</p>
+              <p class="footer-tagline">从教研走向 AI 产品，记录我如何把模糊经验拆成可验证、可审校的产品能力。</p>
             </div>
             <div class="footer-links">
               <div class="footer-col">
@@ -627,18 +632,14 @@ button,input{font:inherit;color:inherit;background:none;border:none;outline:none
               <div class="footer-col">
                 <p class="footer-col-title">联系</p>
                 <ul>
-                  <li>【微信号占位】</li>
-                  <li>【邮箱占位】</li>
+                  <li><a href="mailto:741035412@qq.com">741035412@qq.com</a></li>
+                  <li>小红书：@路遥</li>
                 </ul>
               </div>
             </div>
           </div>
           <div class="footer-bottom">
             <p class="footer-copyright">© 2026 蔡炎洺</p>
-            <div class="footer-qr">
-              <span class="eyebrow">扫码添加微信</span>
-              <div class="placeholder qr-sm">二维码<br>200×200px</div>
-            </div>
           </div>
         </footer>
 
