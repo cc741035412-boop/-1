@@ -272,11 +272,73 @@ button,input{font:inherit;color:inherit;background:none;border:none;outline:none
 
 /* ==========================================================
    首屏以下：沿用同一套字体 / 玻璃语言
+   每一章配一段季节画面 + 遮罩，不再是连续纯黑
    ========================================================== */
 .below{position:relative;background:#000}
 .section{padding:clamp(88px,10vw,150px) 24px;position:relative}
 @media(min-width:768px){.section{padding-left:40px;padding-right:40px}}
 .section-inner{max-width:var(--maxw);margin:0 auto}
+
+/* ---------- 季节章节容器 ---------- */
+.chapter{position:relative;isolation:isolate;overflow:hidden;background:#000}
+.chapter-media{
+  position:absolute;inset:-6% 0;z-index:0;overflow:hidden;
+  will-change:transform;transform:translate3d(0,0,0);
+}
+.chapter-video{
+  position:absolute;inset:0;width:100%;height:100%;object-fit:cover;
+  opacity:0;transition:opacity 1400ms ease;
+}
+.chapter-video.is-ready{opacity:1}
+.chapter-fallback{position:absolute;inset:0;z-index:-1}
+/* 双层遮罩：整体压暗 + 上下边缘化入纯黑，形成章节之间的转场 */
+.chapter-scrim{position:absolute;inset:0;z-index:1;pointer-events:none}
+.chapter-scrim::before{content:'';position:absolute;inset:0;background:var(--scrim-flat)}
+.chapter-scrim::after{
+  content:'';position:absolute;inset:0;
+  background:linear-gradient(180deg,#000 0%,rgba(0,0,0,0) 22%,rgba(0,0,0,0) 78%,#000 100%);
+}
+.chapter > .section{position:relative;z-index:2}
+
+/* 破晓 / 春 */
+.chapter[data-season="spring"]{--scrim-flat:linear-gradient(180deg,rgba(6,10,18,.80),rgba(10,14,24,.68) 50%,rgba(6,10,18,.82))}
+.chapter[data-season="spring"] .chapter-fallback{background:radial-gradient(120% 90% at 30% 10%,#1b2436,#05070c 70%)}
+/* 深林 / 夏 —— 画面偏亮，遮罩最重 */
+.chapter[data-season="summer"]{--scrim-flat:linear-gradient(180deg,rgba(4,10,10,.86),rgba(6,14,14,.78) 50%,rgba(4,10,10,.88))}
+.chapter[data-season="summer"] .chapter-fallback{background:radial-gradient(120% 90% at 70% 20%,#12251f,#04080a 70%)}
+/* 金色时刻 / 秋 */
+.chapter[data-season="autumn"]{--scrim-flat:linear-gradient(180deg,rgba(10,7,4,.82),rgba(14,9,5,.72) 50%,rgba(8,6,4,.86))}
+.chapter[data-season="autumn"] .chapter-fallback{background:radial-gradient(120% 90% at 50% 0%,#2a1c0e,#06040a 72%)}
+/* 静水 / 冬 */
+.chapter[data-season="winter"]{--scrim-flat:linear-gradient(180deg,rgba(5,9,16,.80),rgba(7,12,20,.70) 45%,rgba(3,5,9,.92))}
+.chapter[data-season="winter"] .chapter-fallback{background:radial-gradient(120% 90% at 50% 15%,#141f2e,#04060a 72%)}
+
+/* ---------- 第二屏：定位宣言 ---------- */
+.statement{
+  min-height:78vh;display:flex;flex-direction:column;
+  align-items:center;justify-content:center;text-align:center;
+  padding:clamp(96px,12vw,180px) 24px;background:#000;
+}
+.statement h2{
+  max-width:60rem;font-weight:400;
+  font-size:clamp(30px,5.6vw,72px);line-height:1.18;letter-spacing:-0.02em;
+  color:rgba(255,255,255,.96);
+}
+.statement h2 .italic{font-style:italic}
+.statement h2 .dim{color:rgba(255,255,255,.42)}
+.statement p{
+  margin-top:clamp(26px,3vw,40px);max-width:34rem;
+  font-family:var(--ui);font-size:14px;line-height:1.95;color:rgba(255,255,255,.5);
+}
+.statement .scroll-cue{
+  margin-top:clamp(38px,5vw,64px);width:1px;height:56px;
+  background:linear-gradient(180deg,rgba(255,255,255,.5),rgba(255,255,255,0));
+}
+@media(prefers-reduced-motion:no-preference){
+  .statement .scroll-cue{animation:cueDrift 2.6s ease-in-out infinite}
+}
+@keyframes cueDrift{0%,100%{opacity:.35;transform:translateY(-6px)}50%{opacity:1;transform:translateY(0)}}
+
 .eyebrow{
   font-family:var(--ui);font-size:11px;letter-spacing:.12em;text-transform:uppercase;
   color:rgba(255,255,255,.45);
@@ -295,52 +357,91 @@ button,input{font:inherit;color:inherit;background:none;border:none;outline:none
   background:#fff;color:#111;border-radius:9999px;
 }
 @media(min-width:768px){.pill{padding:4px 20px;margin:0 10px}}
-.placeholder{
-  display:flex;align-items:center;justify-content:center;text-align:center;
-  font-family:var(--ui);font-size:11px;line-height:1.9;letter-spacing:.04em;
-  color:rgba(255,255,255,.38);background:rgba(255,255,255,.03);
-  border:1px dashed rgba(255,255,255,.18);border-radius:14px;padding:20px;
+/* 关于我 —— 模板式双卡分栏：左照片卡、右经历卡 */
+.about-grid{
+  display:grid;grid-template-columns:minmax(0,0.85fr) minmax(0,1.15fr);
+  gap:16px;align-items:stretch;
 }
-
-/* 关于我 */
-.about-grid{display:grid;grid-template-columns:minmax(220px,300px) minmax(0,1fr);gap:clamp(28px,4vw,56px);align-items:start}
-.about-media{width:100%;padding:0;border-radius:24px;overflow:hidden}
+.about-media{
+  position:relative;width:100%;padding:0;border-radius:24px;overflow:hidden;
+  min-height:420px;
+}
 .portrait{
-  display:block;width:100%;height:auto;min-height:0;aspect-ratio:4/5;
-  object-fit:cover;object-position:center;border:none;border-radius:24px;background:none;
+  display:block;width:100%;height:100%;min-height:420px;
+  object-fit:cover;object-position:center 22%;border:none;background:none;
 }
-.about-text{padding:clamp(28px,3vw,44px);border-radius:24px}
+.about-media figcaption{
+  position:absolute;left:0;right:0;bottom:0;z-index:2;
+  padding:44px 26px 24px;
+  background:linear-gradient(180deg,rgba(0,0,0,0),rgba(0,0,0,.72));
+  font-family:var(--ui);font-size:12px;letter-spacing:.08em;
+  color:rgba(255,255,255,.78);
+}
+.about-text{padding:clamp(28px,3vw,44px);border-radius:24px;display:flex;flex-direction:column}
 .about-body p{font-family:var(--ui);font-size:15px;line-height:1.95;color:rgba(255,255,255,.64);margin-top:20px}
 .about-body p.tag{
   font-family:var(--ui);font-size:11px;letter-spacing:.1em;text-transform:uppercase;
   color:rgba(255,255,255,.45);margin-top:26px;
 }
 
-/* 正在关注 */
-.now-list{margin-top:44px;display:grid;gap:14px}
+/* 正在思考 —— 六条观点，液态玻璃卡片 */
+.now-list{margin-top:48px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
 .now-item{
-  padding:clamp(24px,2.4vw,32px);border-radius:20px;
-  display:grid;grid-template-columns:130px 1fr;gap:26px;align-items:baseline;
+  padding:clamp(26px,2.6vw,34px);border-radius:20px;
+  display:flex;flex-direction:column;gap:14px;
+  transition:transform .5s var(--ease),box-shadow .5s var(--ease);
+}
+.now-item:hover{transform:translateY(-5px);box-shadow:0 26px 64px rgba(0,0,0,.45)}
+.now-index{
+  font-family:var(--ui);font-size:11px;letter-spacing:.14em;
+  color:rgba(255,255,255,.34);position:relative;z-index:1;
 }
 .now-date{
-  font-family:var(--ui);font-size:11px;letter-spacing:.1em;text-transform:uppercase;
-  color:rgba(255,255,255,.6);white-space:nowrap;
+  font-size:20px;line-height:1.3;color:#fff;position:relative;z-index:1;
 }
-.now-text{font-family:var(--ui);font-size:15px;line-height:1.85;color:rgba(255,255,255,.64)}
+.now-text{
+  font-family:var(--ui);font-size:14px;line-height:1.9;
+  color:rgba(255,255,255,.62);position:relative;z-index:1;
+}
+@media(max-width:900px){.now-list{grid-template-columns:1fr}}
 
-/* 精选笔记 */
-.notes-grid{margin-top:44px;display:grid;grid-template-columns:repeat(3,1fr);gap:14px;align-items:stretch}
+/* 文章观点 —— 本页动效最重的一章 */
+.notes-head{display:grid;grid-template-columns:minmax(0,1fr);gap:0}
+.notes-progress{
+  margin-top:34px;width:100%;height:1px;background:rgba(255,255,255,.14);
+  border-radius:9999px;overflow:hidden;
+}
+.notes-progress i{
+  display:block;height:100%;width:0%;background:rgba(255,255,255,.85);
+  transform-origin:left center;transition:width .18s linear;
+}
+.notes-grid{
+  margin-top:44px;display:flex;flex-wrap:wrap;justify-content:center;gap:14px;
+  perspective:1400px;
+}
 .note-card{
+  flex:0 1 calc((100% - 28px)/3);
   padding:24px;border-radius:20px;min-height:500px;
   display:flex;flex-direction:column;align-items:flex-start;
-  cursor:pointer;transition:transform .3s var(--ease),box-shadow .3s var(--ease);
+  cursor:pointer;
+  transition:transform .55s var(--ease),box-shadow .45s var(--ease),opacity .7s ease;
 }
-.note-card:hover{transform:translateY(-6px);box-shadow:0 24px 60px rgba(0,0,0,.42)}
+.note-card:hover{transform:translateY(-8px) scale(1.012);box-shadow:0 30px 72px rgba(0,0,0,.55)}
 .note-card:focus-visible{outline:2px solid #fff;outline-offset:4px}
+/* 沉浸式入场：卡片带轻微 3D 倾斜逐张落位 */
+.note-card.lift{opacity:0;transform:translate3d(0,64px,-90px) rotateX(7deg)}
+.note-card.lift.in-view{opacity:1;transform:translate3d(0,0,0) rotateX(0)}
+.notes-grid .note-card.lift:nth-child(1){transition-delay:0ms}
+.notes-grid .note-card.lift:nth-child(2){transition-delay:90ms}
+.notes-grid .note-card.lift:nth-child(3){transition-delay:180ms}
+.notes-grid .note-card.lift:nth-child(4){transition-delay:60ms}
+.notes-grid .note-card.lift:nth-child(5){transition-delay:150ms}
 .note-thumb{
   width:100%;aspect-ratio:3/2;margin-bottom:24px;object-fit:cover;
   border:1px solid rgba(255,255,255,.12);border-radius:14px;background:#0a0a0a;
+  transition:transform .6s var(--ease);
 }
+.note-card:hover .note-thumb{transform:scale(1.03)}
 .note-tag{
   font-family:var(--ui);font-size:11px;letter-spacing:.1em;text-transform:uppercase;
   color:rgba(255,255,255,.45);margin:0 0 12px 0;
@@ -352,37 +453,43 @@ button,input{font:inherit;color:inherit;background:none;border:none;outline:none
   color:rgba(255,255,255,.82);
 }
 
-/* 联系 */
+/* 联系 —— 模板式全屏 CTA */
+.cta{
+  min-height:88vh;display:flex;flex-direction:column;
+  align-items:center;justify-content:center;text-align:center;
+}
+.cta-label{
+  font-family:var(--ui);font-size:11px;letter-spacing:.3em;text-transform:uppercase;
+  color:rgba(255,255,255,.5);margin-bottom:22px;
+}
 .contact-statement{
-  text-align:center;font-size:clamp(30px,4.4vw,56px);line-height:1.3;letter-spacing:-0.02em;
-  color:rgba(255,255,255,.95);max-width:60rem;margin:0 auto;
+  font-size:clamp(34px,6vw,80px);line-height:1.14;letter-spacing:-0.02em;
+  color:rgba(255,255,255,.97);max-width:56rem;margin:0 auto;
 }
+.contact-statement .italic{font-style:italic}
 .contact-copy{
-  margin:26px auto 0;max-width:520px;text-align:center;
-  font-family:var(--ui);font-size:15px;line-height:1.95;color:rgba(255,255,255,.64);
+  margin:28px auto 0;max-width:34rem;
+  font-family:var(--ui);font-size:15px;line-height:1.95;color:rgba(255,255,255,.6);
 }
-.contact-card{
-  width:100%;max-width:28rem;margin:clamp(44px,5vw,68px) auto 0;
-  padding:32px;border-radius:24px;text-align:center;
-  display:flex;flex-direction:column;align-items:center;
+.cta-actions{
+  margin-top:clamp(34px,4vw,52px);
+  display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:14px;
 }
-@media(min-width:768px){.contact-card{padding:44px}}
-.contact-logo{width:38px;height:38px;margin-bottom:18px;color:#fff;position:relative;z-index:1}
-.contact-title{font-size:1.5rem;font-weight:400;color:#fff;margin-bottom:8px;position:relative;z-index:1}
-@media(min-width:768px){.contact-title{font-size:1.875rem}}
-.contact-sub{
-  font-family:var(--ui);font-size:11px;text-transform:uppercase;letter-spacing:.06em;
-  color:rgba(255,255,255,.5);margin-bottom:26px;max-width:20rem;position:relative;z-index:1;
+.btn-ghost{
+  display:inline-block;font-family:var(--ui);font-size:14px;line-height:1;
+  padding:15px 34px;border-radius:9999px;
+  border:1px solid rgba(255,255,255,.24);color:rgba(255,255,255,.72);
+  transition:color .25s ease,border-color .25s ease;
 }
-.qr-placeholder{width:180px;height:180px;margin-bottom:20px;position:relative;z-index:1}
-.contact-lines{
-  font-family:var(--ui);font-size:13px;line-height:2;color:rgba(255,255,255,.5);
-  margin-bottom:22px;position:relative;z-index:1;
+.btn-ghost:hover{color:#fff;border-color:rgba(255,255,255,.5)}
+.cta-actions .btn-white{padding:15px 34px}
+.cta-meta{
+  margin-top:30px;font-family:var(--ui);font-size:12px;letter-spacing:.06em;
+  color:rgba(255,255,255,.42);
 }
-.contact-card .btn-white{width:100%;text-align:center;padding:14px 24px;font-size:13px}
 
 /* 页脚 */
-.site-footer{margin-top:clamp(96px,12vw,200px);padding:24px;border-radius:24px;color:rgba(255,255,255,.7)}
+.site-footer{margin-top:clamp(72px,9vw,140px);padding:24px;border-radius:24px;color:rgba(255,255,255,.7)}
 @media(min-width:768px){.site-footer{padding:40px}}
 .footer-grid{display:grid;grid-template-columns:1fr;gap:40px;margin-bottom:40px;position:relative;z-index:1}
 @media(min-width:768px){
@@ -412,9 +519,6 @@ button,input{font:inherit;color:inherit;background:none;border:none;outline:none
   font-family:var(--ui);font-size:10px;text-transform:uppercase;letter-spacing:.1em;
   color:rgba(255,255,255,.45);
 }
-.footer-qr{display:flex;align-items:center;gap:14px}
-.footer-qr .eyebrow{font-size:10px;white-space:nowrap}
-.qr-sm{width:88px;height:88px;font-size:10px;padding:8px;flex-shrink:0}
 
 /* 进场动画 */
 .reveal{opacity:0;transform:translate3d(0,28px,0);transition:opacity .8s ease,transform .8s ease}
@@ -423,19 +527,23 @@ button,input{font:inherit;color:inherit;background:none;border:none;outline:none
 @media(prefers-reduced-motion:reduce){
   html{scroll-behavior:auto}
   .reveal{opacity:1;transform:none;transition:none}
+  .note-card.lift{opacity:1;transform:none}
   .hero-overlay{animation:none;transform:scale(1.03)}
+  .chapter-media{transform:none !important}
+  .chapter-video{transition:none}
 }
 
 @media(max-width:900px){
-  .notes-grid{grid-template-columns:1fr}
-  .note-card{min-height:0}
+  .note-card{flex-basis:100%;min-height:0}
   .note-tag{margin-top:24px}
-  .now-item{grid-template-columns:1fr;gap:10px}
+  .about-grid{grid-template-columns:1fr}
+  .about-media{min-height:0;aspect-ratio:4/5;max-width:420px;margin:0 auto}
+  .portrait{min-height:0;height:100%}
   .footer-links{grid-template-columns:1fr 1fr;gap:32px 24px}
 }
 @media(max-width:640px){
-  .about-grid{grid-template-columns:1fr}
-  .about-media{max-width:280px;margin:0 auto}
+  .about-media{max-width:320px}
+  .cta{min-height:76vh}
 }
 </style>
 </head>
@@ -524,12 +632,27 @@ button,input{font:inherit;color:inherit;background:none;border:none;outline:none
 <div class="below">
   <main>
 
-    <!-- 关于我 -->
-    <section id="about" class="section">
+    <!-- 定位宣言 -->
+    <section class="statement">
+      <h2 class="reveal">让 AI 的每一次判断，<br><span class="italic">都能被人验证</span>。<br><span class="dim">这是我做产品的全部起点。</span></h2>
+      <p class="reveal">不是把模型塞进流程，而是先说清楚：谁来判断、依据什么、错了怎么查。</p>
+      <div class="scroll-cue" aria-hidden="true"></div>
+    </section>
+
+    <!-- 关于我 · 破晓 / 春 -->
+    <section id="about" class="chapter" data-season="spring">
+      <div class="chapter-media">
+        <div class="chapter-fallback"></div>
+        <video class="chapter-video" muted loop playsinline preload="none" aria-hidden="true"
+          data-src="https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260702_080959_4cac5234-3573-464e-a5b7-76b94b8a7d61.mp4"></video>
+      </div>
+      <div class="chapter-scrim" aria-hidden="true"></div>
+      <div class="section">
       <div class="section-inner about-grid">
-        <div class="about-media liquid-glass reveal">
+        <figure class="about-media liquid-glass reveal">
           <img class="portrait" src="assets/images/profile/cai-yanming-portrait.png" alt="蔡炎洺个人肖像照" loading="lazy">
-        </div>
+          <figcaption>破晓 · 2024 年 2 月转入 AI 产品</figcaption>
+        </figure>
         <div class="about-text liquid-glass reveal">
           <p class="eyebrow">关于我</p>
           <h2 class="section-title">从教研走向 AI 产品，<br>我重新学会<span class="italic"> 定义问题</span></h2>
@@ -541,74 +664,135 @@ button,input{font:inherit;color:inherit;background:none;border:none;outline:none
           </div>
         </div>
       </div>
+      </div>
     </section>
 
-    <!-- 正在关注 -->
-    <section id="now" class="section">
+    <!-- 正在思考 · 深林 / 夏 -->
+    <section id="now" class="chapter" data-season="summer">
+      <div class="chapter-media">
+        <div class="chapter-fallback"></div>
+        <video class="chapter-video" muted loop playsinline preload="none" aria-hidden="true"
+          data-src="https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260702_081042_df7202bf-bd80-4b2b-bbc6-1f09ba2870e9.mp4"></video>
+      </div>
+      <div class="chapter-scrim" aria-hidden="true"></div>
+      <div class="section">
       <div class="section-inner">
-        <p class="eyebrow">正在关注</p>
-        <h2 class="section-title">最近在想的两个问题</h2>
-        <p class="section-hint">从当前的产品实践里抽出问题，再用真实数据和用户反馈修正答案。</p>
+        <p class="eyebrow">正在思考 · 深林</p>
+        <h2 class="section-title">最近在想的<span class="italic">六件事</span></h2>
+        <p class="section-hint">下面这些判断来自我自己的笔记与产品实践，再用真实数据和用户反馈反复修正。</p>
         <div class="now-list">
           <div class="now-item liquid-glass reveal">
-            <span class="now-date">判断边界</span>
+            <span class="now-index">01</span>
+            <h3 class="now-date">分层排查</h3>
+            <p class="now-text">产品不好用，很少是因为模型不够强。先看用户和场景是否成立、任务的完成标准有没有定义清楚，再谈 AI 方案和系统实现。顺序反了，团队会一直换模型、改提示词，最后发现最初的问题从没被说清楚。</p>
+          </div>
+          <div class="now-item liquid-glass reveal">
+            <span class="now-index">02</span>
+            <h3 class="now-date">上下文取舍</h3>
+            <p class="now-text">上下文不是越多越好。提示词、检索资料和历史对话堆在一起，重点就散了。我更在意的是：怎样把真正相关的那部分挑出来交给模型，以及哪些数据该走精确查询、而不是交给语义相似度去猜。</p>
+          </div>
+          <div class="now-item liquid-glass reveal">
+            <span class="now-index">03</span>
+            <h3 class="now-date">判断边界</h3>
             <p class="now-text">模型可以给建议，但不能悄悄替用户做判断。真正的产品设计，是把 AI 做什么、人确认什么、结果如何追溯写进流程里。</p>
           </div>
           <div class="now-item liquid-glass reveal">
-            <span class="now-date">评测闭环</span>
+            <span class="now-index">04</span>
+            <h3 class="now-date">自主性的代价</h3>
+            <p class="now-text">固定流程能解决的事，先别急着加 Agent 的自主性。系统越自主，对权限、确认和失败处理的要求就越高——自主性是要用治理成本换的，不是免费的能力升级。</p>
+          </div>
+          <div class="now-item liquid-glass reveal">
+            <span class="now-index">05</span>
+            <h3 class="now-date">安全的位置</h3>
+            <p class="now-text">看过 OpenAI 那起沙箱逃逸事件后，我改了自己的排序：安全不是模型的附加功能，而是第一性原则。那次真正的缺口不在技术，而在信息断层——早就有人发现异常，处理事件的人却不知道。</p>
+          </div>
+          <div class="now-item liquid-glass reveal">
+            <span class="now-index">06</span>
+            <h3 class="now-date">评测闭环</h3>
             <p class="now-text">一次命中率不是终点。用户的采纳、删除和改写，才是下一轮知识库、Prompt 与交互优化最有价值的反馈。</p>
           </div>
         </div>
       </div>
+      </div>
     </section>
 
-    <!-- 精选笔记 -->
-    <section id="notes" class="section">
+    <!-- 文章观点 · 金色时刻 / 秋 -->
+    <section id="notes" class="chapter" data-season="autumn">
+      <div class="chapter-media">
+        <div class="chapter-fallback"></div>
+        <video class="chapter-video" muted loop playsinline preload="none" aria-hidden="true"
+          data-src="https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260702_081127_0992a171-d3c6-4978-8213-0ec5df8b6d63.mp4"></video>
+      </div>
+      <div class="chapter-scrim" aria-hidden="true"></div>
+      <div class="section">
       <div class="section-inner">
-        <p class="eyebrow">精选笔记</p>
-        <h2 class="section-title">用产品思维拆解 <span class="pill">AI</span></h2>
-        <p class="section-hint">这里收录我对 AI 产品、数据规则与真实产品案例的拆解。每一篇都从具体问题出发，给出可以被检验的判断。</p>
+        <div class="notes-head">
+          <p class="eyebrow">文章观点 · 金色时刻</p>
+          <h2 class="section-title">用产品思维拆解 <span class="pill">AI</span></h2>
+          <p class="section-hint">这里收录我对 AI 产品链路、数据规则、真实产品案例与行业安全事件的拆解。每一篇都从具体问题出发，给出可以被检验的判断。</p>
+          <div class="notes-progress" id="notesProgress" aria-hidden="true"><i></i></div>
+        </div>
         <div class="notes-grid">
-          <a class="note-card liquid-glass reveal" href="assets/content/from-product-manager-to-ai-product-manager.docx" download aria-label="下载文章：AI 产品经理，不是换岗位，而是学会管理不确定性">
+          <a class="note-card liquid-glass lift" href="assets/content/from-product-manager-to-ai-product-manager.docx" download aria-label="下载文章：AI 产品经理，不是换岗位，而是学会管理不确定性">
             <img class="note-thumb" src="assets/images/notes/ai-product-manager-boundaries-v2.png" alt="封面插画：AI 产品经理把不确定的模型能力，装进场景、评估与责任的边界" loading="lazy">
             <p class="note-tag">转型思考 · 文章</p>
             <h3 class="note-title">AI 产品经理，不是换岗位，而是学会管理不确定性</h3>
             <p class="note-excerpt">传统产品基本功没有失效；真正新增的，是把模型能力放进清晰的场景、评估和责任边界。</p>
             <span class="note-meta">下载文章 · DOCX ↓</span>
           </a>
-          <a class="note-card liquid-glass reveal" href="assets/content/data-rule-priorities.docx" download aria-label="下载文章：规则不是一碗水端平，模型微调中的优先级判断">
+          <a class="note-card liquid-glass lift" href="assets/content/data-rule-priorities.docx" download aria-label="下载文章：规则不是一碗水端平，模型微调中的优先级判断">
             <img class="note-thumb" src="assets/images/notes/data-rule-priorities-v2.png" alt="封面插画：模型微调按安全红线、核心场景与长尾问题分层分配优先级" loading="lazy">
             <p class="note-tag">数据标注 · 文章</p>
             <h3 class="note-title">规则不是一碗水端平：模型微调中的优先级判断</h3>
             <p class="note-excerpt">资源有限时，专业不是平均用力，而是守住安全红线、重点投入核心场景，并让每次取舍都能被业务目标解释。</p>
             <span class="note-meta">下载文章 · DOCX ↓</span>
           </a>
-          <a class="note-card liquid-glass reveal" href="assets/content/anker-ai-recorder-product-teardown.pptx" download aria-label="下载分享：安克 AI 录音豆，用户买的不是录音，而是一条知识捷径">
+          <a class="note-card liquid-glass lift" href="assets/content/anker-ai-recorder-product-teardown.pptx" download aria-label="下载分享：安克 AI 录音豆，用户买的不是录音，而是一条知识捷径">
             <img class="note-thumb" src="assets/images/notes/anker-ai-recorder-v2.png" alt="封面插画：安克 AI 录音豆从采集、理解到复用的完整产品链路" loading="lazy">
             <p class="note-tag">产品拆解 · 分享 PPT</p>
             <h3 class="note-title">安克 AI 录音豆：用户买的不是录音，而是一条知识捷径</h3>
             <p class="note-excerpt">好的 AI 产品价值不在单个模型按钮，而在“采集—理解—复用”的完整链路，并明确哪些结果必须人工确认。</p>
             <span class="note-meta">下载分享 · PPTX ↓</span>
           </a>
+          <a class="note-card liquid-glass lift" href="assets/content/why-strong-models-dont-make-good-products.docx" download aria-label="下载文章：模型很强，为什么产品不一定好用">
+            <img class="note-thumb" src="assets/images/notes/model-to-product-chain.svg" alt="封面示意图：模型能力经过训练、API、产品与 Agent 逐层放大，最终汇聚成用户价值" loading="lazy">
+            <p class="note-tag">认知框架 · 文章</p>
+            <h3 class="note-title">模型很强，为什么产品不一定好用</h3>
+            <p class="note-excerpt">模型只是起点。能力要经过训练、API、RAG、产品设计和 Agent 才变成用户价值；出了问题就按「产品定义 → 任务定义 → AI 能力 → 系统实现」逐层往下查。</p>
+            <span class="note-meta">下载文章 · DOCX ↓</span>
+          </a>
+          <a class="note-card liquid-glass lift" href="assets/content/ai-safety-first-principle-briefing.md" download aria-label="下载讲稿：当模型开始自己想办法，安全就不再是补丁">
+            <img class="note-thumb" src="assets/images/notes/ai-safety-first-principle.svg" alt="封面示意图：自主协作的 agent 网络穿透防护盾，触达外部系统" loading="lazy">
+            <p class="note-tag">行业观察 · 分享讲稿</p>
+            <h3 class="note-title">当模型开始自己想办法，安全就不再是补丁</h3>
+            <p class="note-excerpt">一个模型为了完成「无解任务」，自主串联漏洞、协同同伴、攻击外部系统，还两次从人类眼皮底下溜过去。能力越强，安全越不是可选项。</p>
+            <span class="note-meta">下载讲稿 · MD ↓</span>
+          </a>
         </div>
+      </div>
       </div>
     </section>
 
-    <!-- 联系方式 -->
-    <section id="contact" class="section">
+    <!-- 联系与页脚 · 静水 / 冬 -->
+    <section id="contact" class="chapter" data-season="winter">
+      <div class="chapter-media">
+        <div class="chapter-fallback"></div>
+        <video class="chapter-video" muted loop playsinline preload="none" aria-hidden="true"
+          data-src="https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260702_092026_dd05b805-ea0f-40b2-8c52-332b88502592.mp4"></video>
+      </div>
+      <div class="chapter-scrim" aria-hidden="true"></div>
+      <div class="section">
       <div class="section-inner">
 
-        <div class="reveal">
-          <h2 class="contact-statement">如果这些思考对你有<span class="pill">价值</span>，我们聊聊。</h2>
+        <div class="cta reveal">
+          <p class="cta-label">静水 · 联系我</p>
+          <h2 class="contact-statement">如果这些思考对你有价值，<br><span class="italic">我们聊聊</span>。</h2>
           <p class="contact-copy">如果你也在做垂直场景的 AI 产品，或者正在处理模型边界、评测与人机协同问题，欢迎给我发邮件。具体问题比泛泛寒暄更容易聊出东西。</p>
-        </div>
-
-        <div class="contact-card liquid-glass reveal">
-          <svg class="contact-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor" aria-hidden="true"><path d="M 4.688 136 C 68.373 136 120 187.627 120 251.312 C 120 252.883 119.967 254.445 119.905 256 L 0 256 L 0 136.096 C 1.555 136.034 3.117 136 4.688 136 Z M 251.312 136 C 252.883 136 254.445 136.034 256 136.096 L 256 256 L 136.095 256 C 136.032 254.438 136.001 252.875 136 251.312 C 136 187.627 187.627 136 251.312 136 Z M 119.905 0 C 119.967 1.555 120 3.117 120 4.688 C 120 68.373 68.373 120 4.687 120 C 3.117 120 1.555 119.967 0 119.905 L 0 0 Z M 256 119.905 C 254.445 119.967 252.883 120 251.312 120 C 187.627 120 136 68.373 136 4.687 C 136 3.117 136.033 1.555 136.095 0 L 256 0 Z"/></svg>
-          <h3 class="contact-title">给我发邮件</h3>
-          <p class="contact-sub">AI 产品 · 任务拆解 · 评测与人机协同</p>
-          <p class="contact-lines"><a href="mailto:741035412@qq.com">741035412@qq.com</a><br>小红书：@路遥</p>
-          <a class="btn-white" href="mailto:741035412@qq.com">写一封邮件</a>
+          <div class="cta-actions">
+            <a class="btn-white" href="mailto:741035412@qq.com">写一封邮件</a>
+            <a class="btn-ghost" href="#notes">先看看我的文章</a>
+          </div>
+          <p class="cta-meta">741035412@qq.com　·　小红书 @路遥</p>
         </div>
 
         <footer class="site-footer liquid-glass reveal">
@@ -625,8 +809,8 @@ button,input{font:inherit;color:inherit;background:none;border:none;outline:none
                 <p class="footer-col-title">浏览</p>
                 <ul>
                   <li><a href="#about">关于我</a></li>
-                  <li><a href="#now">正在关注</a></li>
-                  <li><a href="#notes">精选笔记</a></li>
+                  <li><a href="#now">正在思考</a></li>
+                  <li><a href="#notes">文章观点</a></li>
                 </ul>
               </div>
               <div class="footer-col">
@@ -643,6 +827,7 @@ button,input{font:inherit;color:inherit;background:none;border:none;outline:none
           </div>
         </footer>
 
+      </div>
       </div>
     </section>
 
@@ -702,7 +887,8 @@ button,input{font:inherit;color:inherit;background:none;border:none;outline:none
     a.addEventListener('click', function(){ setMenu(false); });
   });
 
-  // 进场动画
+  // 进场动画（.reveal 与文章卡片 .lift 共用）
+  var animated = document.querySelectorAll('.reveal, .lift');
   if(!reduceMotion && 'IntersectionObserver' in window){
     var observer = new IntersectionObserver(function(entries){
       entries.forEach(function(entry){
@@ -712,9 +898,64 @@ button,input{font:inherit;color:inherit;background:none;border:none;outline:none
         }
       });
     }, { threshold: 0.15 });
-    document.querySelectorAll('.reveal').forEach(function(el){ observer.observe(el); });
+    animated.forEach(function(el){ observer.observe(el); });
   } else {
-    document.querySelectorAll('.reveal').forEach(function(el){ el.classList.add('in-view'); });
+    animated.forEach(function(el){ el.classList.add('in-view'); });
+  }
+
+  /* ---------- 季节章节：按需加载视频 + 离屏暂停 ---------- */
+  var chapters = Array.prototype.slice.call(document.querySelectorAll('.chapter'));
+  var conn = navigator.connection || {};
+  // 省流量模式、慢网络、窄屏一律只用渐变兜底，不拉四段视频
+  var wantsVideo = !reduceMotion && !conn.saveData &&
+    !/2g/.test(conn.effectiveType || '') && window.matchMedia('(min-width:768px)').matches;
+
+  if(wantsVideo && 'IntersectionObserver' in window){
+    var mediaObserver = new IntersectionObserver(function(entries){
+      entries.forEach(function(entry){
+        var v = entry.target.querySelector('.chapter-video');
+        if(!v) return;
+        if(entry.isIntersecting){
+          if(v.dataset.src){ v.src = v.dataset.src; delete v.dataset.src; }
+          v.play().then(function(){ v.classList.add('is-ready'); }).catch(function(){});
+          if(v.readyState >= 2) v.classList.add('is-ready');
+        } else if(!v.paused){
+          v.pause();
+        }
+      });
+    }, { rootMargin: '320px 0px' });
+    chapters.forEach(function(c){ mediaObserver.observe(c); });
+  }
+
+  /* ---------- 轻量视差 + 文章章节进度条 ---------- */
+  var progressFill = document.querySelector('#notesProgress i');
+  var ticking = false;
+  function frame(){
+    ticking = false;
+    var vh = window.innerHeight;
+    chapters.forEach(function(c){
+      var media = c.querySelector('.chapter-media');
+      if(!media) return;
+      var r = c.getBoundingClientRect();
+      if(r.bottom < -200 || r.top > vh + 200) return;
+      // 章节从进入到离开视口，背景整体位移约 6%
+      var p = (vh - r.top) / (vh + r.height);   // 0 → 1
+      media.style.transform = 'translate3d(0,' + (p * 6 - 3).toFixed(2) + '%,0)';
+    });
+    if(progressFill){
+      var n = document.getElementById('notes').getBoundingClientRect();
+      var q = (vh * 0.8 - n.top) / n.height;
+      progressFill.style.width = Math.max(0, Math.min(1, q)) * 100 + '%';
+    }
+  }
+  if(!reduceMotion){
+    window.addEventListener('scroll', function(){
+      if(!ticking){ ticking = true; requestAnimationFrame(frame); }
+    }, { passive:true });
+    window.addEventListener('resize', frame, { passive:true });
+    frame();
+  } else if(progressFill){
+    progressFill.style.width = '100%';
   }
 })();
 </script>

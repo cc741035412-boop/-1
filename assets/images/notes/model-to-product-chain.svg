@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1536 1024" width="1536" height="1024" role="img" aria-label="从模型到用户价值的能力链路示意">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="46%" r="78%">
+      <stop offset="0%" stop-color="#0b1220"/>
+      <stop offset="55%" stop-color="#050810"/>
+      <stop offset="100%" stop-color="#000205"/>
+    </radialGradient>
+    <linearGradient id="track" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2b3a6b" stop-opacity="0"/>
+      <stop offset="14%" stop-color="#3f5fd0" stop-opacity=".85"/>
+      <stop offset="52%" stop-color="#5b8bff"/>
+      <stop offset="78%" stop-color="#8f7bff"/>
+      <stop offset="100%" stop-color="#ff8a3d"/>
+    </linearGradient>
+    <linearGradient id="beam" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#5b8bff" stop-opacity="0"/>
+      <stop offset="60%" stop-color="#6f9bff" stop-opacity=".28"/>
+      <stop offset="100%" stop-color="#ffb066" stop-opacity=".55"/>
+    </linearGradient>
+    <radialGradient id="bloom" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff6e8"/>
+      <stop offset="28%" stop-color="#ffb066"/>
+      <stop offset="62%" stop-color="#ff7a2f" stop-opacity=".45"/>
+      <stop offset="100%" stop-color="#ff6a1a" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="orb" cx="36%" cy="32%" r="72%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="34%" stop-color="#8fb4ff"/>
+      <stop offset="100%" stop-color="#1c3a8f"/>
+    </radialGradient>
+    <radialGradient id="orbV" cx="36%" cy="32%" r="72%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="34%" stop-color="#bda8ff"/>
+      <stop offset="100%" stop-color="#3d2a8f"/>
+    </radialGradient>
+    <filter id="soft" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="26"/>
+    </filter>
+    <filter id="tight" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="9"/>
+    </filter>
+    <filter id="haze" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="60"/>
+    </filter>
+  </defs>
+
+  <rect width="1536" height="1024" fill="url(#bg)"/>
+  <ellipse cx="1180" cy="512" rx="420" ry="300" fill="#ff7a2f" opacity=".10" filter="url(#haze)"/>
+  <ellipse cx="470" cy="512" rx="380" ry="240" fill="#3f5fd0" opacity=".12" filter="url(#haze)"/>
+
+  <!-- 扩散的价值光束 -->
+  <path d="M300 512 L1260 300 L1260 724 Z" fill="url(#beam)" opacity=".6"/>
+
+  <!-- 主链路 -->
+  <path d="M150 512 C 420 470, 560 552, 780 512 S 1120 468, 1290 512" fill="none" stroke="url(#track)" stroke-width="26" stroke-linecap="round" opacity=".45" filter="url(#soft)"/>
+  <path d="M150 512 C 420 470, 560 552, 780 512 S 1120 468, 1290 512" fill="none" stroke="url(#track)" stroke-width="7" stroke-linecap="round"/>
+
+  <!-- 分支：训练 / RAG 支线汇入 -->
+  <path d="M470 498 C 520 380, 620 336, 742 348" fill="none" stroke="#6f9bff" stroke-width="3" opacity=".55"/>
+  <path d="M470 526 C 520 660, 630 700, 748 686" fill="none" stroke="#a78bff" stroke-width="3" opacity=".5"/>
+  <circle cx="756" cy="346" r="16" fill="url(#orb)" opacity=".92"/>
+  <circle cx="756" cy="346" r="30" fill="#6f9bff" opacity=".25" filter="url(#tight)"/>
+  <circle cx="762" cy="688" r="16" fill="url(#orbV)" opacity=".92"/>
+  <circle cx="762" cy="688" r="30" fill="#a78bff" opacity=".25" filter="url(#tight)"/>
+
+  <!-- 五个节点：模型 → 训练 → API → 产品 → Agent -->
+  <g>
+    <circle cx="172" cy="508" r="60" fill="#5b8bff" opacity=".22" filter="url(#tight)"/>
+    <circle cx="172" cy="508" r="27" fill="url(#orb)"/>
+
+    <circle cx="470" cy="512" r="72" fill="#5b8bff" opacity=".24" filter="url(#tight)"/>
+    <circle cx="470" cy="512" r="34" fill="url(#orb)"/>
+
+    <circle cx="768" cy="512" r="84" fill="#7d92ff" opacity=".26" filter="url(#tight)"/>
+    <circle cx="768" cy="512" r="41" fill="url(#orb)"/>
+    <circle cx="768" cy="512" r="66" fill="none" stroke="#9ab6ff" stroke-width="1.6" opacity=".5"/>
+
+    <circle cx="1030" cy="500" r="96" fill="#a78bff" opacity=".26" filter="url(#tight)"/>
+    <circle cx="1030" cy="500" r="48" fill="url(#orbV)"/>
+    <circle cx="1030" cy="500" r="76" fill="none" stroke="#c3b2ff" stroke-width="1.6" opacity=".45"/>
+  </g>
+
+  <!-- 终点：用户价值 -->
+  <circle cx="1288" cy="512" r="210" fill="url(#bloom)" opacity=".85"/>
+  <circle cx="1288" cy="512" r="60" fill="#fff3e2"/>
+  <circle cx="1288" cy="512" r="116" fill="none" stroke="#ffb066" stroke-width="2" opacity=".55"/>
+  <circle cx="1288" cy="512" r="168" fill="none" stroke="#ff8a3d" stroke-width="1.4" opacity=".32"/>
+
+  <!-- 沿链路流动的数据粒子 -->
+  <g fill="#cfe0ff">
+    <circle cx="268" cy="497" r="6" opacity=".85"/>
+    <circle cx="352" cy="489" r="4.5" opacity=".7"/>
+    <circle cx="600" cy="530" r="6" opacity=".8"/>
+    <circle cx="680" cy="524" r="4.5" opacity=".65"/>
+    <circle cx="900" cy="500" r="6" opacity=".8"/>
+    <circle cx="960" cy="495" r="4.5" opacity=".6"/>
+    <circle cx="1140" cy="505" r="5" opacity=".7"/>
+  </g>
+
+  <!-- 地面反射 -->
+  <ellipse cx="768" cy="900" rx="700" ry="90" fill="#3f5fd0" opacity=".07" filter="url(#haze)"/>
+</svg>

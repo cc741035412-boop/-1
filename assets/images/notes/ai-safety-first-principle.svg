@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1536 1024" width="1536" height="1024" role="img" aria-label="AI 能力扩张与安全防线示意">
+  <defs>
+    <radialGradient id="sbg" cx="50%" cy="46%" r="78%">
+      <stop offset="0%" stop-color="#120b12"/>
+      <stop offset="55%" stop-color="#080610"/>
+      <stop offset="100%" stop-color="#020104"/>
+    </radialGradient>
+    <linearGradient id="shield" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7fb0ff" stop-opacity=".55"/>
+      <stop offset="55%" stop-color="#3f6fd8" stop-opacity=".30"/>
+      <stop offset="100%" stop-color="#1b2f6b" stop-opacity=".18"/>
+    </linearGradient>
+    <linearGradient id="breach" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffd7a8"/>
+      <stop offset="45%" stop-color="#ff8a3d"/>
+      <stop offset="100%" stop-color="#ff3d2e"/>
+    </linearGradient>
+    <radialGradient id="node" cx="36%" cy="32%" r="72%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="34%" stop-color="#ffb066"/>
+      <stop offset="100%" stop-color="#a1360d"/>
+    </radialGradient>
+    <radialGradient id="core" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff4e6"/>
+      <stop offset="30%" stop-color="#ff9a4d"/>
+      <stop offset="70%" stop-color="#ff5a1f" stop-opacity=".35"/>
+      <stop offset="100%" stop-color="#ff3d2e" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="s-soft" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="22"/></filter>
+    <filter id="s-tight" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="8"/></filter>
+    <filter id="s-haze" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="64"/></filter>
+    <clipPath id="shieldClip">
+      <path d="M560 168 L560 520 C560 700 700 812 830 862 C960 812 1100 700 1100 520 L1100 168 C1000 210 900 226 830 226 C760 226 660 210 560 168 Z"/>
+    </clipPath>
+  </defs>
+
+  <rect width="1536" height="1024" fill="url(#sbg)"/>
+  <ellipse cx="300" cy="512" rx="380" ry="300" fill="#ff5a1f" opacity=".10" filter="url(#s-haze)"/>
+  <ellipse cx="900" cy="480" rx="420" ry="330" fill="#3f6fd8" opacity=".12" filter="url(#s-haze)"/>
+
+  <!-- 左侧：自主协作的 agent 网络 -->
+  <g stroke="#ff8a3d" stroke-width="2" opacity=".45" fill="none">
+    <path d="M150 300 L300 420 L210 600 Z"/>
+    <path d="M300 420 L430 330 L470 540 Z"/>
+    <path d="M210 600 L470 540 L360 740"/>
+    <path d="M150 300 L430 330"/>
+    <path d="M360 740 L470 540"/>
+  </g>
+  <g>
+    <circle cx="150" cy="300" r="34" fill="#ff8a3d" opacity=".2" filter="url(#s-tight)"/><circle cx="150" cy="300" r="15" fill="url(#node)"/>
+    <circle cx="300" cy="420" r="40" fill="#ff8a3d" opacity=".22" filter="url(#s-tight)"/><circle cx="300" cy="420" r="18" fill="url(#node)"/>
+    <circle cx="430" cy="330" r="34" fill="#ff8a3d" opacity=".2" filter="url(#s-tight)"/><circle cx="430" cy="330" r="15" fill="url(#node)"/>
+    <circle cx="210" cy="600" r="34" fill="#ff8a3d" opacity=".2" filter="url(#s-tight)"/><circle cx="210" cy="600" r="15" fill="url(#node)"/>
+    <circle cx="470" cy="540" r="44" fill="#ff8a3d" opacity=".24" filter="url(#s-tight)"/><circle cx="470" cy="540" r="20" fill="url(#node)"/>
+    <circle cx="360" cy="740" r="30" fill="#ff8a3d" opacity=".18" filter="url(#s-tight)"/><circle cx="360" cy="740" r="13" fill="url(#node)"/>
+  </g>
+
+  <!-- 中央：防护盾 -->
+  <path d="M560 168 L560 520 C560 700 700 812 830 862 C960 812 1100 700 1100 520 L1100 168 C1000 210 900 226 830 226 C760 226 660 210 560 168 Z"
+        fill="url(#shield)" stroke="#9dc0ff" stroke-width="3" opacity=".9"/>
+  <path d="M560 168 L560 520 C560 700 700 812 830 862 C960 812 1100 700 1100 520 L1100 168 C1000 210 900 226 830 226 C760 226 660 210 560 168 Z"
+        fill="none" stroke="#7fb0ff" stroke-width="14" opacity=".18" filter="url(#s-soft)"/>
+  <g clip-path="url(#shieldClip)" opacity=".28">
+    <g stroke="#9dc0ff" stroke-width="1.2">
+      <path d="M560 300 H1100"/><path d="M560 400 H1100"/><path d="M560 500 H1100"/>
+      <path d="M560 600 H1100"/><path d="M560 700 H1100"/>
+      <path d="M680 160 V880"/><path d="M830 160 V880"/><path d="M980 160 V880"/>
+    </g>
+  </g>
+
+  <!-- 穿透盾面的裂缝与逃逸路径 -->
+  <g clip-path="url(#shieldClip)">
+    <path d="M470 540 L700 470 L760 560 L900 500 L1010 560" fill="none" stroke="url(#breach)" stroke-width="20" opacity=".35" filter="url(#s-soft)"/>
+    <path d="M470 540 L700 470 L760 560 L900 500 L1010 560" fill="none" stroke="url(#breach)" stroke-width="5"/>
+    <path d="M660 300 L720 480 L640 640" fill="none" stroke="#ff8a3d" stroke-width="2.5" opacity=".55"/>
+    <path d="M980 320 L910 470 L1000 660" fill="none" stroke="#ff8a3d" stroke-width="2.5" opacity=".45"/>
+  </g>
+  <circle cx="700" cy="470" r="12" fill="url(#node)"/>
+  <circle cx="900" cy="500" r="12" fill="url(#node)"/>
+
+  <!-- 右侧：被触达的外部系统 -->
+  <circle cx="1290" cy="512" r="200" fill="url(#core)" opacity=".7"/>
+  <circle cx="1290" cy="512" r="46" fill="#fff1de"/>
+  <circle cx="1290" cy="512" r="104" fill="none" stroke="#ff9a4d" stroke-width="2" opacity=".5"/>
+  <circle cx="1290" cy="512" r="156" fill="none" stroke="#ff5a1f" stroke-width="1.4" opacity=".3"/>
+  <path d="M1010 560 C1120 560, 1200 536, 1244 518" fill="none" stroke="url(#breach)" stroke-width="5"/>
+
+  <ellipse cx="830" cy="930" rx="640" ry="80" fill="#3f6fd8" opacity=".07" filter="url(#s-haze)"/>
+</svg>
