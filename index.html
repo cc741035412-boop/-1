@@ -572,8 +572,8 @@ button,input{font:inherit;color:inherit;background:none;border:none;outline:none
 .case-scene svg{display:block;width:100%;height:100px}
 .case-scene p{font-size:14px;line-height:1.7;color:#b4c2c3;text-align:center}
 .case-options{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:16px}
-.case-options button,.case-candidate button{border:1px solid #8daf9f66;border-radius:9px;padding:11px 16px;min-height:44px;font:500 14px var(--ui);cursor:pointer;color:#d8e9e0;touch-action:manipulation}
-.case-options button[aria-pressed=true],.case-candidate button[aria-pressed=true]{color:#102820;background:#bed9cb;border-color:#bed9cb}
+.case-options button,.case-candidate button,.case-record button{border:1px solid #8daf9f66;border-radius:9px;padding:11px 16px;min-height:44px;font:500 14px var(--ui);cursor:pointer;color:#d8e9e0;touch-action:manipulation}
+.case-options button[aria-pressed=true],.case-candidate button[aria-pressed=true],.case-record button[aria-pressed=true]{color:#102820;background:#bed9cb;border-color:#bed9cb}
 .case-result{padding:18px 20px;border-radius:12px;background:#07101470;border:1px solid #ffffff14}
 .case-result-label{font:400 14px/1.5 var(--ui);color:#a1bbae;margin-bottom:8px}
 .case-result>p:not(.case-result-label){font-size:16px;line-height:1.8;color:#e4eee8}
@@ -584,20 +584,21 @@ button,input{font:inherit;color:inherit;background:none;border:none;outline:none
 .case-candidate h3{font-size:19px;font-weight:500;line-height:1.5}
 .case-candidate button{flex-shrink:0}
 .case-feedback{font-size:14px;color:#bddbcb;margin:18px 0;min-height:24px;line-height:1.7}
-.case-people{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:18px 0}
-.case-people button{display:flex;flex-direction:column;align-items:center;gap:7px;border:1px solid #768e8866;background:#ffffff04;border-radius:14px;padding:19px 12px;cursor:pointer;touch-action:manipulation;color:#c7d5d0}
-.case-people button[aria-pressed=true]{border-color:#bdd8ca;background:#b3d1c315;color:#f1fff7}
-.case-avatar{width:36px;height:36px;display:grid;place-items:center;border-radius:50%;background:#d9bb8433;color:#e6c893;font:20px var(--serif)}
-.case-people button:nth-child(2) .case-avatar{background:#a7c8da26;color:#bddaea}
-.case-people strong{font-weight:500;font-size:18px}.case-people small{font-size:14px;color:#a9bcba}
-.case-person-role{font-size:12px;padding:3px 10px;border-radius:20px;background:#d3e1dc0d;margin-top:4px}
-.case-people button[aria-pressed=true] .case-person-role{background:#bdd8ca;color:#12271c}
+.case-context{font:400 13px/1.7 var(--ui);color:#a1b2b4;margin-bottom:14px}
+.case-record{list-style:none;display:grid;gap:10px;margin:0 0 18px}
+.case-record li{display:flex;align-items:center;justify-content:space-between;gap:14px;padding:14px 16px;border-radius:12px;background:#07101470;border:1px solid #ffffff14;font-size:15px;line-height:1.75;color:#e0eae5}
+.case-record button{flex-shrink:0;margin-left:2px}
+.case-source{flex-shrink:0;margin-left:auto;font-size:12px;line-height:1.6;padding:4px 10px;border-radius:20px;white-space:nowrap}
+.case-source[data-by=ai]{background:#a7c8da24;color:#c0dcee}
+.case-source[data-by=teacher]{background:#bdd8ca26;color:#c9e6d5}
+.case-options button[disabled]{opacity:.42;cursor:not-allowed}
+.case-exports button.is-chosen{color:#102820;background:#bed9cb;border-color:#bed9cb}
 .case-disclosure{font:400 14px/1.9 var(--ui);color:#99aca9;padding-top:18px}
 .case-disclosure summary{cursor:pointer;min-height:44px;display:list-item;list-style-position:inside;width:fit-content;padding:7px 0;color:#a9c1b7}
 .case-disclosure p{max-width:780px;margin-top:8px}
 .case-study button:focus-visible,.case-study summary:focus-visible,.case-study [role=tabpanel]:focus-visible,.case-entry:focus-visible{outline:2px solid #d7e7b5;outline-offset:4px}
 @media(max-width:900px){.case-heading{display:block}.case-intro{max-width:none;margin-top:20px}.case-intro br{display:none}.case-workbench{grid-template-columns:1fr}.case-decisions{border-right:0;border-bottom:1px solid #ffffff1c;display:grid;grid-template-columns:repeat(3,1fr);padding:16px;gap:8px}.case-decisions button{display:block;min-height:0;padding:14px 10px}.case-decisions strong{font-size:16px;margin-top:4px}.case-decisions small,.case-tab-arrow{display:none}.case-number{font-size:24px}.case-demonstrations{min-height:412px}.case-flow{gap:12px}.case-flow li:not(:last-child)::after{display:none}}
-@media(max-width:540px){.case-heading{margin-top:48px}.case-flow{grid-template-columns:1fr 1fr;gap:16px 20px}.case-flow li:last-child{grid-column:1/-1}.case-flow li span{display:inline;margin-right:9px}.case-demonstrations{padding:22px 18px;min-height:444px}.case-decisions{padding:12px 10px;gap:4px}.case-decisions strong{font-size:14px}.case-candidate{padding:18px 14px;gap:12px}.case-candidate h3{font-size:17px}.case-candidate button{padding:10px 12px}.case-demo-label{font-size:12px}.case-result{padding:16px}.case-scene p{font-size:14px}}
+@media(max-width:540px){.case-heading{margin-top:48px}.case-flow{grid-template-columns:1fr 1fr;gap:16px 20px}.case-flow li:last-child{grid-column:1/-1}.case-flow li span{display:inline;margin-right:9px}.case-demonstrations{padding:22px 18px;min-height:444px}.case-decisions{padding:12px 10px;gap:4px}.case-decisions strong{font-size:14px}.case-candidate{padding:18px 14px;gap:12px}.case-candidate h3{font-size:17px}.case-candidate button{padding:10px 12px}.case-demo-label{font-size:12px}.case-result{padding:16px}.case-scene p{font-size:14px}.case-record li{flex-direction:column;align-items:flex-start;gap:9px}.case-record .case-source{margin-left:0}}
 
 </style>
 </head>
@@ -742,8 +743,8 @@ button,input{font:inherit;color:inherit;background:none;border:none;outline:none
             <button type="button" id="case-tab-evidence" role="tab" aria-selected="false" aria-controls="case-panel-evidence" tabindex="-1">
               <span class="case-number">02</span><span><strong>让建议带着依据</strong><small>教师在同一处查看、采用或取消。</small></span><span class="case-tab-arrow" aria-hidden="true">↗</span>
             </button>
-            <button type="button" id="case-tab-person" role="tab" aria-selected="false" aria-controls="case-panel-person" tabindex="-1">
-              <span class="case-number">03</span><span><strong>一眼分清主次</strong><small>直接切换主体，角色与反馈同时更新。</small></span><span class="case-tab-arrow" aria-hidden="true">↗</span>
+            <button type="button" id="case-tab-handoff" role="tab" aria-selected="false" aria-controls="case-panel-handoff" tabindex="-1">
+              <span class="case-number">03</span><span><strong>定稿权归教师</strong><small>每一句都标来源，教师收口后一键导出。</small></span><span class="case-tab-arrow" aria-hidden="true">↗</span>
             </button>
           </div>
           <div class="case-demonstrations">
@@ -784,14 +785,20 @@ button,input{font:inherit;color:inherit;background:none;border:none;outline:none
               <p class="case-feedback" id="case-adopt-status" role="status">尚未采用 · 请先核对依据</p>
               <p class="case-footnote">示例观察点为手写演示，不引用课题指标原文。</p>
             </section>
-            <section id="case-panel-person" class="case-panel" role="tabpanel" aria-labelledby="case-tab-person" tabindex="0" hidden>
-              <p class="case-result-label">这一次，主要观察谁？</p>
-              <div class="case-people" role="group" aria-label="主观察幼儿，单选">
-                <button type="button" data-case-person="A" aria-pressed="true"><span class="case-avatar">A</span><strong>幼儿 A</strong><small>调整桥面</small><span class="case-person-role">主观察</span></button>
-                <button type="button" data-case-person="B" aria-pressed="false"><span class="case-avatar">B</span><strong>幼儿 B</strong><small>递来积木</small><span class="case-person-role">其他幼儿</span></button>
+            <section id="case-panel-handoff" class="case-panel" role="tabpanel" aria-labelledby="case-tab-handoff" tabindex="0" hidden>
+              <p class="case-result-label">这条记录，哪一句是谁写的？</p>
+              <p class="case-context">主观察：幼儿 A · 其他幼儿：幼儿 B</p>
+              <ul class="case-record">
+                <li><span>桥面滑落后，A 将右侧支撑向内移动，再次把桥面放上去。</span><span class="case-source" data-by="ai">AI 白描 · 教师已改</span></li>
+                <li><span>观察点：尝试调整方法</span><span class="case-source" data-by="teacher">教师采用</span></li>
+                <li><span>观察分析与支持策略</span><span class="case-source" data-by="teacher" id="case-analysis-state">教师未填写</span><button type="button" id="case-analysis-toggle" aria-pressed="false">去填写</button></li>
+              </ul>
+              <div class="case-options case-exports" role="group" aria-label="导出材料">
+                <button type="button" data-case-export="family" disabled>导出这一条 · 家长沟通</button>
+                <button type="button" data-case-export="research" disabled>导出本月汇总 · 教研</button>
               </div>
-              <p class="case-feedback" id="case-person-status" role="status">主观察：幼儿 A · 其他幼儿：幼儿 B</p>
-              <div class="case-result"><p class="case-result-label">切换之后</p><p>角色立即更新。原主体的 AI 结果需要重新核对，不能直接沿用。</p></div>
+              <p class="case-feedback" id="case-export-status" role="status">两项必填未完成 · 导出入口不开放</p>
+              <p class="case-footnote">AI 产出只是草稿；导出的 Word / PDF 用同一份教师定稿，可选附上已采纳的观察点。</p>
             </section>
           </div>
         </div>
@@ -1147,15 +1154,28 @@ button,input{font:inherit;color:inherit;background:none;border:none;outline:none
     document.getElementById('case-candidate').classList.toggle('is-selected',selected);
     document.getElementById('case-adopt-status').textContent = selected ? '已选 1 项 · 再点一次可取消' : '尚未采用 · 请先核对依据';
   });
-  root.querySelectorAll('[data-case-person]').forEach(function(button){
+  var analysisToggle = document.getElementById('case-analysis-toggle');
+  var analysisState = document.getElementById('case-analysis-state');
+  var exportStatus = document.getElementById('case-export-status');
+  var exportButtons = Array.from(root.querySelectorAll('[data-case-export]'));
+  var exportFiles = {
+    family:'已导出 幼儿A_观察记录_20260907.docx · 一条记录，用来和家长说清楚过程',
+    research:'已导出 自主游戏观察记录_2026年9月.docx · 本月已确认记录汇总，用于教研'
+  };
+  function setAnalysisFilled(filled){
+    analysisToggle.setAttribute('aria-pressed',String(filled));
+    analysisToggle.textContent = filled ? '撤回' : '去填写';
+    analysisState.textContent = filled ? '教师已填写' : '教师未填写';
+    exportStatus.textContent = filled ? '两项必填已完成 · 可以确认并导出' : '两项必填未完成 · 导出入口不开放';
+    exportButtons.forEach(function(item){ item.disabled = !filled; item.classList.remove('is-chosen'); });
+  }
+  analysisToggle.addEventListener('click',function(){
+    setAnalysisFilled(analysisToggle.getAttribute('aria-pressed') !== 'true');
+  });
+  exportButtons.forEach(function(button){
     button.addEventListener('click',function(){
-      var person = button.dataset.casePerson;
-      root.querySelectorAll('[data-case-person]').forEach(function(item){
-        var selected = item === button;
-        item.setAttribute('aria-pressed',String(selected));
-        item.querySelector('.case-person-role').textContent = selected ? '主观察' : '其他幼儿';
-      });
-      document.getElementById('case-person-status').textContent = '主观察：幼儿 '+person+' · 其他幼儿：幼儿 '+(person === 'A' ? 'B' : 'A');
+      exportButtons.forEach(function(item){ item.classList.toggle('is-chosen',item === button); });
+      exportStatus.textContent = exportFiles[button.dataset.caseExport];
     });
   });
 })();
