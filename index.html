@@ -791,14 +791,14 @@ button,input{font:inherit;color:inherit;background:none;border:none;outline:none
               <ul class="case-record">
                 <li><span>桥面滑落后，A 将右侧支撑向内移动，再次把桥面放上去。</span><span class="case-source" data-by="ai">AI 白描 · 教师已改</span></li>
                 <li><span>观察点：尝试调整方法</span><span class="case-source" data-by="teacher">教师采用</span></li>
-                <li><span>观察分析与支持策略</span><span class="case-source" data-by="teacher" id="case-analysis-state">教师未填写</span><button type="button" id="case-analysis-toggle" aria-pressed="false">去填写</button></li>
+                <li><span>观察分析与支持策略</span><span class="case-source" data-by="teacher" id="case-analysis-state">教师未填写</span><button type="button" id="case-analysis-toggle" aria-pressed="false">模拟填写完成</button></li>
               </ul>
               <div class="case-options case-exports" role="group" aria-label="导出材料">
                 <button type="button" data-case-export="family" disabled>导出这一条 · 家长沟通</button>
                 <button type="button" data-case-export="research" disabled>导出本月汇总 · 教研</button>
               </div>
               <p class="case-feedback" id="case-export-status" role="status">两项必填未完成 · 导出入口不开放</p>
-              <p class="case-footnote">AI 产出只是草稿；导出的 Word / PDF 用同一份教师定稿，可选附上已采纳的观察点。</p>
+              <p class="case-footnote">仅演示流程，不生成文件。实际产品支持 Word / PDF 导出，可选附上已采纳的观察点。</p>
             </section>
           </div>
         </div>
@@ -1159,12 +1159,12 @@ button,input{font:inherit;color:inherit;background:none;border:none;outline:none
   var exportStatus = document.getElementById('case-export-status');
   var exportButtons = Array.from(root.querySelectorAll('[data-case-export]'));
   var exportFiles = {
-    family:'已导出 幼儿A_观察记录_20260907.docx · 一条记录，用来和家长说清楚过程',
-    research:'已导出 自主游戏观察记录_2026年9月.docx · 本月已确认记录汇总，用于教研'
+    family:'模拟导出：幼儿A_观察记录_20260907.docx · 一条记录，用来和家长说清楚过程',
+    research:'模拟导出：自主游戏观察记录_2026年9月.docx · 本月已确认记录汇总，用于教研'
   };
   function setAnalysisFilled(filled){
     analysisToggle.setAttribute('aria-pressed',String(filled));
-    analysisToggle.textContent = filled ? '撤回' : '去填写';
+    analysisToggle.textContent = filled ? '撤回填写' : '模拟填写完成';
     analysisState.textContent = filled ? '教师已填写' : '教师未填写';
     exportStatus.textContent = filled ? '两项必填已完成 · 可以确认并导出' : '两项必填未完成 · 导出入口不开放';
     exportButtons.forEach(function(item){ item.disabled = !filled; item.classList.remove('is-chosen'); });
